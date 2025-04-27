@@ -10,7 +10,8 @@ WARNING! Remember to close disk player after you get alot of etahen notification
 
 Once you see this close disk player, if you wont you will get kp:
 ![image](https://github.com/user-attachments/assets/8c192a64-dcd8-489f-981e-37680ee40e22)
-2nd METHOD: if you dont wanna do this consider using the no etahen pipelines and then loading etahen from this websrv app: https://github.com/cy33hc/ps5-payload-loader and since websrv is included in the ALL-IN-ONE pipeline, if you wanna do the method use the ALL-IN-ONE-NOetaHEN pipeline!
+2nd METHOD: if you dont wanna do this consider using the no etahen pipelines and then loading etahen from this websrv app: https://github.com/cy33hc/ps5-payload-loader 
+and since websrv is included in the ALL-IN-ONE pipeline, if you wanna do the method use the ALL-IN-ONE-NOetaHEN pipeline!
 
 ***
 
@@ -41,7 +42,8 @@ NO-etaHEN pipelines
 
 These pipelines are the same versions of the ones before, but without the etaHEN in the end, so theres no need for timing closing disk player so you wouldnt get kp.
 What it runs: Everything until etahen.
-with this you can load etahen either via injecting it or using this websrv app: https://github.com/cy33hc/ps5-payload-loader and since websrv is included in the ALL-IN-ONE pipeline, if you wanna do this method use the ALL-IN-ONE-NOetaHEN pipeline!
+with this you can load etahen either via injecting it or using this websrv app: https://github.com/cy33hc/ps5-payload-loader 
+and since websrv is included in the ALL-IN-ONE pipeline, if you wanna do this method use the ALL-IN-ONE-NOetaHEN pipeline!
 
 __________________________________________________________________________________________________________________________________________________________________________________
 
