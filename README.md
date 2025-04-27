@@ -37,7 +37,19 @@ What it runs: Everything until etahen.
 
 __________________________________________________________________________________________________________________________________________________________________________________
 
+This iso includes 4 options: pipeline loader, jar loader, usb elf loader and remote jar loader
 
+jar files on the iso: 
+umtx1.jar
+umtx2.jar
+elfloader.jar
+etaHEN.jar
+websrv.jar
+ftpsrv.jar
+spoofer_fortesting.jar (ps4 sdk spoofer already included in etahen so this is just for testing)
+
+
+__________________________________________________________________________________________________________________________________________________________________________________
 
 
 
