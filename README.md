@@ -6,7 +6,7 @@ i am on 7.61 so thats the firmware version i test on
 Contact me on discord: Viktorious_x for feedback
 
 WARNING! Remember to close disk player after you get alot of etahen notifications cuz after that its kstuff which causes system to crash when it gets loaded in disk player
-Once you see this close disk player:
+Once you see this close disk player, if you wont you will get kp:
 ![image](https://github.com/user-attachments/assets/8c192a64-dcd8-489f-981e-37680ee40e22)
 
 
