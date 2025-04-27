@@ -1,7 +1,7 @@
 # ps5-bdjb-modified-ISOs
 Modified ISOs for 6.xx and 7.xx
 
-me myself i am on 7.61
+i am on 7.61 so thats the firmware version i test on
 
 Contact me on discord: Viktorious_x for feedback
 
