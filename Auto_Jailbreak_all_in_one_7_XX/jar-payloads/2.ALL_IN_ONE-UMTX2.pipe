@@ -1,0 +1,8 @@
+JAR DISC 1.umtx2.jar
+JAR DISC 2.elfloader.jar
+SLEEP 3
+JAR DISC 6.ftpsrv.jar
+SLEEP 3
+JAR DISC 5.websrv.jar
+SLEEP 5
+JAR DISC 3.etaHEN.jar
