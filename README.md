@@ -5,10 +5,14 @@ i am on 7.61 so thats the firmware version i test on
 
 Contact me on discord: Viktorious_x for feedback
 
+***
 WARNING! Remember to close disk player after you get alot of etahen notifications cuz after that its kstuff which causes system to crash when it gets loaded in disk player
+
 Once you see this close disk player, if you wont you will get kp:
 ![image](https://github.com/user-attachments/assets/8c192a64-dcd8-489f-981e-37680ee40e22)
+2nd METHOD: if you dont wanna do this consider using the no etahen pipelines and then loading etahen from this websrv app: https://github.com/cy33hc/ps5-payload-loader and since websrv is included in the ALL-IN-ONE pipeline, if you wanna do the method use the ALL-IN-ONE-NOetaHEN pipeline!
 
+***
 
 As always thank you echostretch and LM for kstuff and Etahen! Also thanks hammer 83 for jar loader, iakdev for usb loader and pipeline loader! thanks to cryonumb for bdj elf loader! Thanks John Törnblom for ftpsrv and websrv!
  Hope this helps and have fun! Thanks for all the people who made this possible! Also thanks Driverick (original modded iso creator) and 54f3ty (Elon Musk) for helping me make this!
@@ -37,6 +41,7 @@ NO-etaHEN pipelines
 
 These pipelines are the same versions of the ones before, but without the etaHEN in the end, so theres no need for timing closing disk player so you wouldnt get kp.
 What it runs: Everything until etahen.
+with this you can load etahen either via injecting it or using this websrv app: https://github.com/cy33hc/ps5-payload-loader and since websrv is included in the ALL-IN-ONE pipeline, if you wanna do this method use the ALL-IN-ONE-NOetaHEN pipeline!
 
 __________________________________________________________________________________________________________________________________________________________________________________
 
