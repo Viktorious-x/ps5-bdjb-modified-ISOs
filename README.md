@@ -1,5 +1,6 @@
 # ps5-bdjb-modified-ISOs
 Modified ISOs for 6.xx and 7.xx, i modified the driverick ver of his ISO
+THIS ISO IS NOT OFFLINE BTW, YOU STILL NEED INTERNET FOR IT TO WORK!
 
 i am on 7.61 so thats the firmware version i test on
 
