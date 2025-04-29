@@ -22,7 +22,7 @@ W̶A̶R̶N̶I̶N̶G̶!̶ ̶R̶e̶m̶e̶m̶b̶e̶r̶ ̶t̶o̶ ̶c̶l̶o̶s̶e̶ �
 ***
 
 As always thank you [EchoStretch](https://github.com/Echostretch) and [LM](https://github.com/LightningMods) for kstuff and Etahen! Also thanks [hammer 83](https://github.com/hammer-83) for jar loader, [iakdev](https://github.com/iakdev) for usb loader and pipeline loader! thanks to [cryonumb](https://github.com/cryonumb) for bdj elf loader! Thanks [John Törnblom](https://github.com/john-tornblom) for ftpsrv and websrv!
- Hope this helps and have fun! Thanks for all the people who made this possible! Also thanks [driverick](https://github.com/DriveRick) (original modded iso creator) and 54f3ty (Elon Musk) for helping me make this!
+ Hope this helps and have fun! Thanks for all the people who made this possible! Also thanks [driverick](https://github.com/DriveRick) (original modded iso creator) and [54f3ty (Elon Musk)](https://github.com/54f3ty) for helping me make this!
 Remember to close disk player after you get alot of etahen notifications cuz after that its kstuff which causes system to crash when it gets loaded in disk player
 Also a huge thanks to [BenNox_XD](https://github.com/BenNoxXD) for helping me with the biggest issue so far: etahen causing crashes in bdj, He is a genius for what he made and without him I wouldnt have this working perfectly. Big thanks!
 
