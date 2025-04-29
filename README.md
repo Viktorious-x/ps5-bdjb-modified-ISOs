@@ -9,6 +9,7 @@ Contact me on discord: Viktorious_x for feedback
 ***
 Tutorial: 
 Burn the latest iso on your BD disk using imgburn, run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will se a notification that will ask you to close the disk player, close the disk player and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!)
+check out this youtube video to see how to use iso: https://www.youtube.com/watch?v=hNmA0WT11H4
 
 ***
 THIS METHOD IS NO LONGER NEEDED SINCE ETAHEN WAS FIXED BY [BenNox_XD](https://github.com/BenNoxXD)
