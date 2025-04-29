@@ -7,6 +7,10 @@ i am on 7.61 so thats the firmware version i test on
 Contact me on discord: Viktorious_x for feedback
 
 ***
+Tutorial: 
+Burn the latest iso on your BD disk using imgburn, run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will se a notification that will ask you to close the disk player, close the disk player and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!)
+
+***
 THIS METHOD IS NO LONGER NEEDED SINCE ETAHEN WAS FIXED BY [BenNox_XD](https://github.com/BenNoxXD)
 W̶A̶R̶N̶I̶N̶G̶!̶ ̶R̶e̶m̶e̶m̶b̶e̶r̶ ̶t̶o̶ ̶c̶l̶o̶s̶e̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶ ̶a̶f̶t̶e̶r̶ ̶y̶o̶u̶ ̶g̶e̶t̶ ̶a̶l̶o̶t̶ ̶o̶f̶ ̶e̶t̶a̶h̶e̶n̶ ̶n̶o̶t̶i̶f̶i̶c̶a̶t̶i̶o̶n̶s̶ ̶c̶u̶z̶ ̶a̶f̶t̶e̶r̶ ̶t̶h̶a̶t̶ ̶i̶t̶s̶ ̶k̶s̶t̶u̶f̶f̶ ̶w̶h̶i̶c̶h̶ ̶c̶a̶u̶s̶e̶s̶ ̶s̶y̶s̶t̶e̶m̶ ̶t̶o̶ ̶c̶r̶a̶s̶h̶ ̶w̶h̶e̶n̶ ̶i̶t̶ ̶g̶e̶t̶s̶ ̶l̶o̶a̶d̶e̶d̶ ̶i̶n̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶
 ̶
@@ -26,7 +30,7 @@ Pipelines are a sequence of payloads run so it will run the payloads all in one 
 
 theres 8 pipelines in total, I will divide it into 3 categories: ALl-IN-ONE, Jailbreak-ONLY and NO-etaHEN
 
-All the pipelines have 2 versions of them, umtx1 and umtx2. I highly reccomend umtx1, but if you dont care about a higher chance of kp and want faster times use the umtx2 versions.
+All the pipelines have 2 versions of them, umtx1 and umtx2 (umtx2 was removed because on bdj its useless, its mostly slower and causes more kp than umtx1. It is not gonna be added back until umtx2 becomes more stable and faster.) . I highly reccomend umtx1, b̶u̶t̶ i̶f̶ y̶o̶u̶ d̶o̶n̶t̶ c̶a̶r̶e̶ a̶b̶o̶u̶t̶ a̶ h̶i̶g̶h̶e̶r̶ c̶h̶a̶n̶c̶e̶ o̶f̶ k̶p̶ a̶n̶d̶ w̶a̶n̶t̶ f̶a̶s̶t̶e̶r̶ t̶i̶m̶e̶s̶ u̶s̶e̶ t̶h̶e̶ u̶m̶t̶x̶2̶ v̶e̶r̶s̶i̶o̶n̶s̶.
 
 __________________________________________________________________________________________________________________________________________________________________________________
 All-In-One pipelines:
@@ -70,3 +74,16 @@ ________________________________________________________________________________
 
 
 Thanks to Lazycode for the idea of making a github page for this!
+
+
+
+
+
+
+
+██╗░░░██╗██╗██╗░░██╗████████╗░█████╗░██████╗░██╗░█████╗░██╗░░░██╗░██████╗
+██║░░░██║██║██║░██╔╝╚══██╔══╝██╔══██╗██╔══██╗██║██╔══██╗██║░░░██║██╔════╝
+╚██╗░██╔╝██║█████═╝░░░░██║░░░██║░░██║██████╔╝██║██║░░██║██║░░░██║╚█████╗░
+░╚████╔╝░██║██╔═██╗░░░░██║░░░██║░░██║██╔══██╗██║██║░░██║██║░░░██║░╚═══██╗
+░░╚██╔╝░░██║██║░╚██╗░░░██║░░░╚█████╔╝██║░░██║██║╚█████╔╝╚██████╔╝██████╔╝
+░░░╚═╝░░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚═╝░╚════╝░░╚═════╝░╚═════╝░
