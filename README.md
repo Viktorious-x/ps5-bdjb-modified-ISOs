@@ -89,7 +89,7 @@ Videos about my ISO:
 <br />
 [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): https://youtu.be/7MhVjhboDkU?t=766
 <br />
-[Goldengames](https://www.youtube.com/@goldengames7890): https://www.youtube.com/watch?v=hNmA0WT11H4
+[Goldengames](https://www.youtube.com/@goldengames7890): https://www.youtube.com/watch?v=fVQMu2dtV5I
 <br />
 [Dravszoo](https://www.youtube.com/@dravszoo): https://www.youtube.com/watch?v=gYSRhE5omGQ&lc
 <br />
