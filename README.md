@@ -1,5 +1,5 @@
 # ps5-bdjb-modified-ISOs
-Modified ISOs for 6.xx and 7.xx, i modified the [driverick](https://github.com/DriveRick) ver of his ISO
+Modified ISOs for 3.xx-7.xx, i modified the [driverick](https://github.com/DriveRick) ver of his ISO
 OFFLINE ISO - NO NEED FOR NETWROK CONNECTION ANYMORE BABYYYY
 
 i am on 7.61 so thats the firmware version i test on
@@ -9,7 +9,7 @@ Contact me on discord: Viktorious_x for feedback
 ***
 Tutorial: 
 Burn the latest iso on your BD disk using imgburn, run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will se a notification that will ask you to close the disk player, close the disk player and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!)
-check out this youtube video to see how to use iso: https://www.youtube.com/watch?v=hNmA0WT11H4
+<br /> check out this youtube video to see how to use iso: https://www.youtube.com/watch?v=hNmA0WT11H4
 
 If you have a BD-r and you still want to edit files on the iso in the future here is a tutorial by nas7536:
 
@@ -31,7 +31,7 @@ W̶A̶R̶N̶I̶N̶G̶!̶ ̶R̶e̶m̶e̶m̶b̶e̶r̶ ̶t̶o̶ ̶c̶l̶o̶s̶e̶ �
 As always thank you [EchoStretch](https://github.com/Echostretch) and [LM](https://github.com/LightningMods) for kstuff and Etahen! Also thanks [hammer 83](https://github.com/hammer-83) for jar loader, [iakdev](https://github.com/iakdev) for usb loader and pipeline loader! thanks to [cryonumb](https://github.com/cryonumb) for bdj elf loader! Thanks [John Törnblom](https://github.com/john-tornblom) for ftpsrv and websrv!
  Hope this helps and have fun! Thanks for all the people who made this possible! Also thanks [driverick](https://github.com/DriveRick) (original modded iso creator) and [54f3ty (Elon Musk)](https://github.com/54f3ty) for helping me make this!
 Remember to close disk player after you get alot of etahen notifications cuz after that its kstuff which causes system to crash when it gets loaded in disk player
-Also a huge thanks to [BenNox_XD](https://github.com/BenNoxXD) for helping me with the biggest issue so far: etahen causing crashes in bdj, He is a genius for what he made and without him I wouldnt have this working perfectly. Big thanks!
+Also a huge thanks to [BenNox_XD](https://github.com/BenNoxXD) for helping me make offline work and help with the biggest issue so far: etahen causing crashes in bdj, He is a genius for what he made and without him I wouldnt have this working perfectly. Big thanks!
 
 Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier and faster and automated that way.
 
@@ -65,18 +65,32 @@ ________________________________________________________________________________
 
 This iso includes 4 options: pipeline loader, jar loader, usb elf loader and remote jar loader
 
-jar files on the iso: 
+jar files on the iso:
+<br />
 umtx1.jar
+<br />
 umtx2.jar
-elfloader.jar
+<br />
+elfloader.jar (modified elf loader jar by [BenNox_XD](https://github.com/BenNoxXD) that would fix elf loader on offline bdj crashing)
+<br />
 etahen.jar (modified etahen jar by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing) 
+<br />
 websrv.jar
+<br />
 ftpsrv.jar
+<br />
 spoofer_fortesting.jar (ps4 sdk spoofer already included in etahen so this is just for testing)
+<br />
 
 
 __________________________________________________________________________________________________________________________________________________________________________________
 
+Videos about my ISO:
+<br />
+[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): https://youtu.be/7MhVjhboDkU?t=766
+<br />
+[Goldengames](https://www.youtube.com/@goldengames7890): https://www.youtube.com/watch?v=hNmA0WT11H4
+<br />
 
 
 
