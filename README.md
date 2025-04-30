@@ -1,6 +1,6 @@
 # ps5-bdjb-modified-ISOs
 Modified ISOs for 6.xx and 7.xx, i modified the [driverick](https://github.com/DriveRick) ver of his ISO
-THIS ISO IS NOT OFFLINE BTW, YOU STILL NEED INTERNET FOR IT TO WORK!
+OFFLINE ISO - NO NEED FOR NETWROK CONNECTION ANYMORE BABYYYY
 
 i am on 7.61 so thats the firmware version i test on
 
@@ -10,6 +10,12 @@ Contact me on discord: Viktorious_x for feedback
 Tutorial: 
 Burn the latest iso on your BD disk using imgburn, run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will se a notification that will ask you to close the disk player, close the disk player and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!)
 check out this youtube video to see how to use iso: https://www.youtube.com/watch?v=hNmA0WT11H4
+
+If you have a BD-r and you still want to edit files on the iso in the future here is a tutorial by nas7536:
+
+It's built into Windows
+Double click the disc in Explorer, select "like a USB flash drive", copy the files from the ISO (do not copy the ISO itself), then right click on the disc -> Eject
+download source code zip instead of iso if you wanna use this method!
 
 ***
 THIS METHOD IS NO LONGER NEEDED SINCE ETAHEN WAS FIXED BY [BenNox_XD](https://github.com/BenNoxXD)
