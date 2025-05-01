@@ -36,7 +36,7 @@ Also a huge thanks to [BenNox_XD](https://github.com/BenNoxXD) for helping me ma
 
 Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier and faster and automated that way.
 
-theres 8 pipelines in total, I will divide it into 3 categories: ALl-IN-ONE, Jailbreak-ONLY and NO-etaHEN
+theres 6 pipelines in total, I will divide it into 4 categories: ALl-IN-ONE, Jailbreak-ONLY, NO-etaHEN and USB-etahen
 
 All the pipelines have 2 versions of them, umtx1 and umtx2 (umtx2 was removed because on bdj its useless, its mostly slower and causes more kp than umtx1. It is not gonna be added back until umtx2 becomes more stable and faster.) . I highly reccomend umtx1, b̶u̶t̶ i̶f̶ y̶o̶u̶ d̶o̶n̶t̶ c̶a̶r̶e̶ a̶b̶o̶u̶t̶ a̶ h̶i̶g̶h̶e̶r̶ c̶h̶a̶n̶c̶e̶ o̶f̶ k̶p̶ a̶n̶d̶ w̶a̶n̶t̶ f̶a̶s̶t̶e̶r̶ t̶i̶m̶e̶s̶ u̶s̶e̶ t̶h̶e̶ u̶m̶t̶x̶2̶ v̶e̶r̶s̶i̶o̶n̶s̶.
 
@@ -63,6 +63,11 @@ w̶i̶t̶h̶ ̶t̶h̶i̶s̶ ̶y̶o̶u̶ ̶c̶a̶n̶ ̶l̶o̶a̶d̶ ̶e̶t̶a̶h�
 ̶a̶n̶d̶ ̶s̶i̶n̶c̶e̶ ̶w̶e̶b̶s̶r̶v̶ ̶i̶s̶ ̶i̶n̶c̶l̶u̶d̶e̶d̶ ̶i̶n̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶a̶n̶n̶a̶ ̶d̶o̶ ̶t̶h̶i̶s̶ ̶m̶e̶t̶h̶o̶d̶ ̶u̶s̶e̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶-̶N̶O̶e̶t̶a̶H̶E̶N̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶!̶
 
 __________________________________________________________________________________________________________________________________________________________________________________
+USB-etahen pipelines
+
+These pipelines are the same as all-in-one and jailbreakonly but instead of loading etahen from disk it loads etahen from usb, usb should be in the front usb-A slot on your ps5 and the etaHEN file should be on your root and be called etaHEN.bin, this is for people who wanna have updated versions of etahen on their USB instead of reburning a new iso.
+
+__________________________________________________________________________________________________________________________________________________________________________________
 
 This iso includes 4 options: pipeline loader, jar loader, usb elf loader and remote jar loader
 
@@ -76,11 +81,11 @@ elfloader.jar (modified elf loader jar by [BenNox_XD](https://github.com/BenNoxX
 <br />
 etahen.jar (modified etahen jar by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing) 
 <br />
+USB_etahen.jar (same as etahen.jar but loads etahen from USB instead of disk, usb should be in the front usb-A slot on your ps5 and the etaHEN file should be on your root and be called etaHEN.bin, this is for people who wanna have updated versions of etahen on their USB instead of reburning a new iso.
+<br />
 websrv.jar
 <br />
-ftpsrv.jar
-<br />
-spoofer_fortesting.jar (ps4 sdk spoofer already included in etahen so this is just for testing)
+ftpsrv_fortesting.jar (included in etahen)
 <br />
 
 
