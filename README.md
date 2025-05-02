@@ -9,7 +9,7 @@ Contact me on discord: Viktorious_x for feedback
 ***
 Tutorial: 
 Burn the latest iso on your BD disk using imgburn, run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will se a notification that will ask you to close the disk player, close the disk player and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!)
-<br /> check out this youtube video to see how to use iso: https://www.youtube.com/watch?v=fVQMu2dtV5I
+<br /> check out this youtube video to see how to use iso: https://www.youtube.com/watch?v=r6BAxgGJxcE 
 
 If you have a BD-r and you still want to edit files on the iso in the future here is a tutorial by nas7536:
 
@@ -93,13 +93,24 @@ ________________________________________________________________________________
 
 Videos about my ISO:
 <br />
-[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): https://youtu.be/7MhVjhboDkU?t=766
+*
+<br />
+English:
+<br />
+[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): https://www.youtube.com/watch?v=r6BAxgGJxcE, https://youtu.be/7MhVjhboDkU?t=766
 <br />
 [Goldengames](https://www.youtube.com/@goldengames7890): https://www.youtube.com/watch?v=fVQMu2dtV5I
 <br />
 [Dravszoo](https://www.youtube.com/@dravszoo): https://www.youtube.com/watch?v=gYSRhE5omGQ&lc
 <br />
-
+*
+<br />
+Spanish:
+<br />
+[TheWizWiki](https://www.youtube.com/@TheWizWiki): https://www.youtube.com/watch?v=AhpxlLCryfA
+<br />
+[Explosão do Game](https://www.youtube.com/@Explosaodogame): https://www.youtube.com/watch?v=lzu7JqJg8jc
+<br />
 ***
 
 Thanks to Lazycode for the idea of making a github page for this!
