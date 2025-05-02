@@ -1,6 +1,7 @@
 # ps5-bdjb-modified-ISOs
 Modified ISOs for 4.xx-7.xx, i modified the [driverick](https://github.com/DriveRick) ver of his ISO
-OFFLINE ISO - NO NEED FOR NETWROK CONNECTION ANYMORE BABYYYY
+<br />
+OFFLINE ISO NOW - NO NEED FOR NETWROK CONNECTION ANYMORE BABYYYY
 <br />
 i am on 7.61 so thats the firmware version i test on
 <br />
