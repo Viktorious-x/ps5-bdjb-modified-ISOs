@@ -115,6 +115,7 @@ Spanish:
 <br />
 [BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/05/02/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-10-nuova-iso-modificata-per-i-firmware-6-xx-e-7-xx-della-console-playstation-5/?fsp_sid=24213)
 <br />
+[GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-rilasciato-ps5-bdjb-modified-iso-v1-11-jailbreak-offline-senza-connessione-internet/)
 ***
 <br />
 Thanks to Lazycode for the idea of making a github page for this!
