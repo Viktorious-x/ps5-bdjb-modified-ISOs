@@ -9,7 +9,7 @@ Contact me on discord: Viktorious_x for feedback
 <br />
 ***
 Tutorial: 
-Burn the latest iso on your BD disk using imgburn, run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will se a notification that will ask you to close the disk player, close the disk player and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!)
+Burn the latest iso on your BD disk using imgburn, run the disk on your ps5 and select any pipeline (I reccomend 1. pipeline), Once the process is finished you will se a notification that will ask you to close the disk player, close the disk player and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!)
 <br /> check out this youtube video to see how to use iso: https://www.youtube.com/watch?v=r6BAxgGJxcE 
 <br />
 If you have a BD-r and you still want to edit files on the iso in the future here is a tutorial by nas7536:
@@ -20,7 +20,18 @@ Double click the disc in Explorer, select "like a USB flash drive", copy the fil
 download source code zip instead of iso if you wanna use this method!
 <br />
 ***
-THIS METHOD IS NO LONGER NEEDED SINCE ETAHEN WAS FIXED BY [BenNox_XD](https://github.com/BenNoxXD)
+<br />
+Etahen is loaded from the disc normally, but if you dont want to update iso to update etahen you can either have etaHEN.bin on your usb ROOT formatted in exfat or in your data folder on your ps5.
+<br />
+The way it checks where to load from is in this order: USB, /data on ps5 and then if those two dont have etaHEN.bin on there it will load it from the disc itself - Huge thanks to BenNox_XD(https://github.com/BenNoxXD) for making this a thing, he is the coder behind it
+
+<br />
+
+***
+
+<br />
+
+THIS METHOD IS NO LONGER NEEDED SINCE ETAHEN WAS FIXED BY BenNox_XD(https://github.com/BenNoxXD)
 W̶A̶R̶N̶I̶N̶G̶!̶ ̶R̶e̶m̶e̶m̶b̶e̶r̶ ̶t̶o̶ ̶c̶l̶o̶s̶e̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶ ̶a̶f̶t̶e̶r̶ ̶y̶o̶u̶ ̶g̶e̶t̶ ̶a̶l̶o̶t̶ ̶o̶f̶ ̶e̶t̶a̶h̶e̶n̶ ̶n̶o̶t̶i̶f̶i̶c̶a̶t̶i̶o̶n̶s̶ ̶c̶u̶z̶ ̶a̶f̶t̶e̶r̶ ̶t̶h̶a̶t̶ ̶i̶t̶s̶ ̶k̶s̶t̶u̶f̶f̶ ̶w̶h̶i̶c̶h̶ ̶c̶a̶u̶s̶e̶s̶ ̶s̶y̶s̶t̶e̶m̶ ̶t̶o̶ ̶c̶r̶a̶s̶h̶ ̶w̶h̶e̶n̶ ̶i̶t̶ ̶g̶e̶t̶s̶ ̶l̶o̶a̶d̶e̶d̶ ̶i̶n̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶
 ̶<br />
 ̶O̶n̶c̶e̶ ̶y̶o̶u̶ ̶s̶e̶e̶ ̶t̶h̶i̶s̶ ̶c̶l̶o̶s̶e̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶o̶n̶t̶ ̶y̶o̶u̶ ̶w̶i̶l̶l̶ ̶g̶e̶t̶ ̶k̶p̶:̶
@@ -65,12 +76,7 @@ w̶i̶t̶h̶ ̶t̶h̶i̶s̶ ̶y̶o̶u̶ ̶c̶a̶n̶ ̶l̶o̶a̶d̶ ̶e̶t̶a̶h�
 ̶a̶n̶d̶ ̶s̶i̶n̶c̶e̶ ̶w̶e̶b̶s̶r̶v̶ ̶i̶s̶ ̶i̶n̶c̶l̶u̶d̶e̶d̶ ̶i̶n̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶a̶n̶n̶a̶ ̶d̶o̶ ̶t̶h̶i̶s̶ ̶m̶e̶t̶h̶o̶d̶ ̶u̶s̶e̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶-̶N̶O̶e̶t̶a̶H̶E̶N̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶!̶
 
 __________________________________________________________________________________________________________________________________________________________________________________
-USB-etahen pipelines
 <br />
-These pipelines are the same as all-in-one and jailbreakonly but instead of loading etahen from disk it loads etahen from usb, usb should be in the front usb-A slot on your ps5 and the etaHEN file should be on your root and be called etaHEN.bin, this is for people who wanna have updated versions of etahen on their USB instead of reburning a new iso.
-<br />
-__________________________________________________________________________________________________________________________________________________________________________________
-
 This iso includes 4 options: pipeline loader, jar loader, usb elf loader and remote jar loader
 <br />
 jar files on the iso:
@@ -79,9 +85,9 @@ umtx1.jar
 <br />
 umtx2.jar
 <br />
-elfloader.jar (modified elf loader jar by [BenNox_XD](https://github.com/BenNoxXD) that would fix elf loader on offline bdj crashing)
+elfloader.jar (modified elf loader jar by BenNox_XD(https://github.com/BenNoxXD) that would fix elf loader on offline bdj crashing)
 <br />
-etahen.jar (modified etahen jar by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing) 
+etahen.jar (modified etahen workaround jar by BenNox_XD(https://github.com/BenNoxXD) that would fix etahen on bdj crashing) 
 <br />
 USB_etahen.jar (same as etahen.jar but loads etahen from USB instead of disk, usb should be in the front usb-A slot on your ps5 and the etaHEN file should be on your root and be called etaHEN.bin, this is for people who wanna have updated versions of etahen on their USB instead of reburning a new iso.
 <br />
