@@ -117,6 +117,10 @@ Spanish:
 <br />
 [TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=AhpxlLCryfA)
 <br />
+*
+<br />
+Portuguese:
+<br />
 [Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=lzu7JqJg8jc)
 <br />
 *
