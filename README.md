@@ -81,7 +81,7 @@ This iso includes 4 options: pipeline loader, jar loader, usb elf loader and rem
 <br />
 jar files on the iso:
 <br />
-umtx1.jar
+umtx1.jar (modified umtx1 jar to be significantly faster)
 <br />
 umtx2.jar
 <br />
