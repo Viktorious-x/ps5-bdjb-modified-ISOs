@@ -58,8 +58,12 @@ W̶A̶R̶N̶I̶N̶G̶!̶ ̶R̶e̶m̶e̶m̶b̶e̶r̶ ̶t̶o̶ ̶c̶l̶o̶s̶e̶ �
 As always thank you [EchoStretch](https://github.com/Echostretch) and [LM](https://github.com/LightningMods) for kstuff and Etahen! Also thanks [hammer 83](https://github.com/hammer-83) for jar loader, [iakdev](https://github.com/iakdev) for usb loader and pipeline loader! thanks to [cryonumb](https://github.com/cryonumb) for bdj elf loader! Thanks [John Törnblom](https://github.com/john-tornblom) for ftpsrv and websrv!
  Hope this helps and have fun! Thanks for all the people who made this possible! Also thanks [driverick](https://github.com/DriveRick) (original modded iso creator) and [54f3ty (Elon Musk)](https://github.com/54f3ty) for helping me make this!
 <br />
-Remember to close disk player after you get alot of etahen notifications cuz after that its kstuff which causes system to crash when it gets loaded in disk player
+<br />
 Also a huge thanks to [BenNox_XD](https://github.com/BenNoxXD) for helping me make offline work and help with the biggest issue so far: etahen causing crashes in bdj, He is a genius for what he made and without him I wouldnt have this working perfectly. Big thanks!
+<br />
+<br />
+<br />
+__________________________________________________________________________________________________________________________________________________________________________________
 <br />
 Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier and faster and automated that way.
 <br />
@@ -121,22 +125,22 @@ Videos and articles about my ISO:
 English:
 <br />
 [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE), [video overview
-<br />](https://youtu.be/7MhVjhboDkU?t=766)
-[Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=fVQMu2dtV5I)
+<br />](https://youtu.be/7MhVjhboDkU?t=766) Warning! This video does contain an older version of the iso
+[Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=D8-2zQ6Q-6o)
 <br />
-[Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=gYSRhE5omGQ&lc)
+[Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=a7BSuP_oIEo)
 <br />
 *
 <br />
 Spanish:
 <br />
-[TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=AhpxlLCryfA)
+[TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=_ONNqFJh66w)
 <br />
 *
 <br />
 Portuguese:
 <br />
-[Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=lzu7JqJg8jc)
+[Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=qzMQtuYvHz0)
 <br />
 *
 <br />
