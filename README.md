@@ -8,9 +8,14 @@ i am on 7.61 so thats the firmware version i test on
 Contact me on discord: Viktorious_x for feedback
 <br />
 ***
+<br /> 
 Tutorial: 
-Burn the latest iso on your BD disk using imgburn, run the disk on your ps5 and select any pipeline (I reccomend 1. pipeline), Once the process is finished you will se a notification that will ask you to close the disk player, close the disk player and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!)
-<br /> check out this youtube video to see how to use iso: https://www.youtube.com/watch?v=r6BAxgGJxcE 
+<br />
+Burn the latest iso on your BD disk using imgburn (or any other preferred software), run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will be on the home menu and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!) 
+<br />
+<br />
+Modded Warfare Vid: https://www.youtube.com/watch?v=r6BAxgGJxcE 
+<br />
 <br />
 If you have a BD-r and you still want to edit files on the iso in the future here is a tutorial by nas7536:
 <br />
@@ -19,7 +24,9 @@ Double click the disc in Explorer, select "like a USB flash drive", copy the fil
 <br />
 download source code zip instead of iso if you wanna use this method!
 <br />
+<br />
 ***
+<br />
 <br />
 Etahen is loaded from the disc normally, but if you dont want to update iso to update etahen you can either have etaHEN.bin on your usb ROOT formatted in exfat or in your data folder on your ps5.
 <br />
@@ -49,7 +56,7 @@ Also a huge thanks to [BenNox_XD](https://github.com/BenNoxXD) for helping me ma
 <br />
 Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier and faster and automated that way.
 <br />
-theres 6 pipelines in total, I will divide it into 4 categories: ALl-IN-ONE, Jailbreak-ONLY, NO-etaHEN and USB-etahen
+theres 4 pipelines in total, I will divide it into 3 categories: ALl-IN-ONE, Jailbreak-ONLY, NO-etaHEN
 <br />
 All the pipelines have 2 versions of them, umtx1 and umtx2 (umtx2 was removed because on bdj its useless, its mostly slower and causes more kp than umtx1. It is not gonna be added back until umtx2 becomes more stable and faster.) . I highly reccomend umtx1, b̶u̶t̶ i̶f̶ y̶o̶u̶ d̶o̶n̶t̶ c̶a̶r̶e̶ a̶b̶o̶u̶t̶ a̶ h̶i̶g̶h̶e̶r̶ c̶h̶a̶n̶c̶e̶ o̶f̶ k̶p̶ a̶n̶d̶ w̶a̶n̶t̶ f̶a̶s̶t̶e̶r̶ t̶i̶m̶e̶s̶ u̶s̶e̶ t̶h̶e̶ u̶m̶t̶x̶2̶ v̶e̶r̶s̶i̶o̶n̶s̶.
 
