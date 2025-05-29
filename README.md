@@ -4,7 +4,7 @@
 Modified ISOs for 4.xx-7.xx, i modified the [driverick](https://github.com/DriveRick) ver of his ISO
 <br />
 <br />
-OFFLINE ISO NOW - NO NEED FOR NETWROK CONNECTION ANYMORE BABYYYY
+OFFLINE ISO NOW - NO NEED FOR NETWORK CONNECTION ANYMORE BABYYYY
 <br />
 <br />
 i am on 7.61 so thats the firmware version i test on
