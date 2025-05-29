@@ -13,6 +13,9 @@ i am on 7.61 so thats the firmware version i test on
 Contact me on discord: Viktorious_x for feedback
 <br />
 <br />
+If you would like to support what I do, here is my donation page: https://ko-fi.com/viktorious
+<br />
+<br />
 ***
 <br />
 <br /> 
