@@ -78,7 +78,7 @@ ________________________________________________________________________________
 All-In-One pipelines:
 <br />
 These pipelines have everything you would want
-What it runs: UMTX - ELF LOADER - FTP SERVER - WEB SERVER - ETAHEN (kstuff included) 
+What it runs: UMTX - ELF LOADER- WEB SERVER - ETAHEN (kstuff included) 
 
 __________________________________________________________________________________________________________________________________________________________________________________
 Jailbreak-ONLY pipelines
