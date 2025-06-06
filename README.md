@@ -42,7 +42,29 @@ download source code zip instead of iso if you wanna use this method!
 Etahen is loaded from the disc normally, but if you dont want to update iso to update etahen you can either have etaHEN.bin on your usb ROOT formatted in exfat or in your data folder on your ps5.
 <br />
 The way it checks where to load from is in this order: USB, /data on ps5 and then if those two dont have etaHEN.bin on there it will load it from the disc itself - Huge thanks to BenNox_XD(https://github.com/BenNoxXD) for making this a thing, he is the coder behind it
+<br />
+<br />
+<br />
+<br />
+Here is the full list of configs for etahen/kstuff
+<br />
+<br />
+<br />
+<br />
 
+```
+1.Default: etaHEN will be loaded from the disc, and you don't have to change anything.
+
+2. etaHEN only: Copy an etaHEN.bin file to the root of a USB drive (priority 1) or to the /data/ directory (priority 2) on the PS5, and it will be loaded instead of the one from the disc.
+
+3. Kstuff only: Same as above, but with kstuff. Copy a kstuff.elf to the root of a USB drive (priority 1) or to the /data/ directory (priority 2) on the PS5, and it will be loaded instead of etaHEN.
+
+4. Combined: Place both etaHEN.bin and kstuff.elf on the root of a USB drive (priority 1) or in the /data/ directory (priority 2) on the PS5, and place a no_kstuff file on the USB root or in /data/etaHEN/. Now etaHEN will be loaded, followed by kstuff.
+It is also supported for etaHEN and kstuff to be in different locations. For example, etaHEN can be on the USB and kstuff in the /data/ directory.
+```
+
+<br />
+<br />
 <br />
 
 ***
