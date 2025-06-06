@@ -14,6 +14,7 @@ Contact me on discord: Viktorious_x for feedback
 <br />
 <br />
 If you would like to support what I do, here is my donation page: https://ko-fi.com/viktorious
+Paypal: Ask me on discord or Twitter(X)
 <br />
 <br />
 ***
