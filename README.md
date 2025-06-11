@@ -24,6 +24,7 @@ If you would like to support what I do, here is my donation page:
 <br />
 Paypal: Ask me on discord or Twitter(X)
 <br />
+<br />
 PS! If you donate do not mention jailbreaking or hacking or anything associated with that!
 <br />
 Thanks!
