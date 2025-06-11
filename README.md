@@ -2,7 +2,7 @@
 <br />
 <br />
 
-Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.xx-7.xx
+## Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.xx-7.xx
 
 <br />
 <br />
@@ -16,7 +16,7 @@ Contact me on discord: Viktorious_x for feedback
 <br />
 <br />
 
-If you would like to support what I do, here is my donation page:
+## If you would like to support what I do, here is my donation page:
 <br />
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/viktorious)
@@ -30,10 +30,9 @@ PS! If you donate do not mention jailbreaking or hacking or anything associated 
 Thanks!
 <br />
 <br />
-***
-<br />
 <br /> 
-Tutorial: 
+
+## Tutorial: 
 <br />
 Burn the latest iso on your BD disk using imgburn (or any other preferred software), run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will be on the home menu and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!) 
 <br />
@@ -49,7 +48,8 @@ Double click the disc in Explorer, select "like a USB flash drive", copy the fil
 download source code zip instead of iso if you wanna use this method!
 <br />
 <br />
-***
+
+## Etahen configs & other stuff
 <br />
 <br />
 Etahen is loaded from the disc normally, but if you dont want to update iso to update etahen you can either have etaHEN.bin on your usb ROOT formatted in exfat or in your data folder on your ps5.
@@ -62,7 +62,8 @@ The way it checks where to load from is in this order: USB, /data on ps5 and the
 <br />
 <br />
 <br />
-Here is the full list of configs for etahen/kstuff
+
+### Here is the full list of configs for etahen/kstuff
 <br />
 <br />
 <br />
