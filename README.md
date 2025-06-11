@@ -2,7 +2,7 @@
 <br />
 <br />
 
-Modified ISOs for 3.xx-7.xx, i modified the [driverick](https://github.com/DriveRick) ver of his ISO
+Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.xx-7.xx
 
 <br />
 <br />
