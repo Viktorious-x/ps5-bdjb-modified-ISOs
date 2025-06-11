@@ -175,7 +175,7 @@ Spanish:
 <br />
 Portuguese:
 <br />
-[Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=qzMQtuYvHz0)
+[Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=QO_XatW6CF0) (v18)
 <br />
 *
 <br />
