@@ -15,9 +15,18 @@ i am on 7.61 so thats the firmware version i test on
 Contact me on discord: Viktorious_x for feedback
 <br />
 <br />
-If you would like to support what I do, here is my donation page: https://ko-fi.com/viktorious
+
+If you would like to support what I do, here is my donation page:
+<br />
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/viktorious)
+
 <br />
 Paypal: Ask me on discord or Twitter(X)
+<br />
+PS! If you donate do not mention jailbreaking or hacking or anything associated with that!
+<br />
+Thanks!
 <br />
 <br />
 ***
@@ -44,7 +53,10 @@ download source code zip instead of iso if you wanna use this method!
 <br />
 Etahen is loaded from the disc normally, but if you dont want to update iso to update etahen you can either have etaHEN.bin on your usb ROOT formatted in exfat or in your data folder on your ps5.
 <br />
-The way it checks where to load from is in this order: USB, /data on ps5 and then if those two dont have etaHEN.bin on there it will load it from the disc itself - Huge thanks to BenNox_XD(https://github.com/BenNoxXD) for making this a thing, he is the coder behind it
+
+The way it checks where to load from is in this order: USB, /data on ps5 and then if those two dont have etaHEN.bin on there it will load it from the disc itself - Huge thanks to
+ [BenNox_XD](https://github.com/BenNoxXD) for making this a thing, he is the coder behind it
+
 <br />
 <br />
 <br />
@@ -73,15 +85,6 @@ It is also supported for etaHEN and kstuff to be in different locations. For exa
 ***
 
 <br />
-
-THIS METHOD IS NO LONGER NEEDED SINCE ETAHEN WAS FIXED BY BenNox_XD(https://github.com/BenNoxXD)
-W̶A̶R̶N̶I̶N̶G̶!̶ ̶R̶e̶m̶e̶m̶b̶e̶r̶ ̶t̶o̶ ̶c̶l̶o̶s̶e̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶ ̶a̶f̶t̶e̶r̶ ̶y̶o̶u̶ ̶g̶e̶t̶ ̶a̶l̶o̶t̶ ̶o̶f̶ ̶e̶t̶a̶h̶e̶n̶ ̶n̶o̶t̶i̶f̶i̶c̶a̶t̶i̶o̶n̶s̶ ̶c̶u̶z̶ ̶a̶f̶t̶e̶r̶ ̶t̶h̶a̶t̶ ̶i̶t̶s̶ ̶k̶s̶t̶u̶f̶f̶ ̶w̶h̶i̶c̶h̶ ̶c̶a̶u̶s̶e̶s̶ ̶s̶y̶s̶t̶e̶m̶ ̶t̶o̶ ̶c̶r̶a̶s̶h̶ ̶w̶h̶e̶n̶ ̶i̶t̶ ̶g̶e̶t̶s̶ ̶l̶o̶a̶d̶e̶d̶ ̶i̶n̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶
-̶<br />
-̶O̶n̶c̶e̶ ̶y̶o̶u̶ ̶s̶e̶e̶ ̶t̶h̶i̶s̶ ̶c̶l̶o̶s̶e̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶o̶n̶t̶ ̶y̶o̶u̶ ̶w̶i̶l̶l̶ ̶g̶e̶t̶ ̶k̶p̶:̶
-
-̶2̶n̶d̶ ̶M̶E̶T̶H̶O̶D̶:̶ ̶i̶f̶ ̶y̶o̶u̶ ̶d̶o̶n̶t̶ ̶w̶a̶n̶n̶a̶ ̶d̶o̶ ̶t̶h̶i̶s̶ ̶c̶o̶n̶s̶i̶d̶e̶r̶ ̶u̶s̶i̶n̶g̶ ̶t̶h̶e̶ ̶n̶o̶ ̶e̶t̶a̶h̶e̶n̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶s̶ ̶a̶n̶d̶ ̶t̶h̶e̶n̶ ̶l̶o̶a̶d̶i̶n̶g̶ ̶e̶t̶a̶h̶e̶n̶ ̶f̶r̶o̶m̶ ̶t̶h̶i̶s̶ ̶w̶e̶b̶s̶r̶v̶ ̶a̶p̶p̶:̶ ̶h̶t̶t̶p̶s̶:̶/̶/̶g̶i̶t̶h̶u̶b̶.̶c̶o̶m̶/̶c̶y̶3̶3̶h̶c̶/̶p̶s̶5̶-̶p̶a̶y̶l̶o̶a̶d̶-̶l̶o̶a̶d̶e̶r̶ ̶
-̶a̶n̶d̶ ̶s̶i̶n̶c̶e̶ ̶w̶e̶b̶s̶r̶v̶ ̶i̶s̶ ̶i̶n̶c̶l̶u̶d̶e̶d̶ ̶i̶n̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶a̶n̶n̶a̶ ̶d̶o̶ ̶t̶h̶e̶ ̶m̶e̶t̶h̶o̶d̶ ̶u̶s̶e̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶-̶N̶O̶e̶t̶a̶H̶E̶N̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶!̶
-̶*̶*̶W̶A̶R̶N̶I̶N̶G̶!̶ ̶R̶e̶m̶e̶m̶b̶e̶r̶ ̶t̶o̶ ̶c̶l̶o̶s̶e̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶ ̶a̶f̶t̶e̶r̶ ̶y̶o̶u̶ ̶g̶e̶t̶ ̶a̶l̶o̶t̶ ̶o̶f̶ ̶e̶t̶a̶h̶e̶n̶ ̶n̶o̶t̶i̶f̶i̶c̶a̶t̶i̶o̶n̶s̶ ̶c̶u̶z̶ ̶a̶f̶t̶e̶r̶ ̶t̶h̶a̶t̶ ̶i̶t̶s̶ ̶k̶s̶t̶u̶f̶f̶ ̶w̶h̶i̶c̶h̶ ̶c̶a̶u̶s̶e̶s̶ ̶s̶y̶s̶t̶e̶m̶ ̶t̶o̶ ̶c̶r̶a̶s̶h̶ ̶w̶h̶e̶n̶ ̶i̶t̶ ̶g̶e̶t̶s̶ ̶l̶o̶a̶d̶e̶d̶ ̶i̶n̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶ ̶ ̶O̶n̶c̶e̶ ̶y̶o̶u̶ ̶s̶e̶e̶ ̶t̶h̶i̶s̶ ̶c̶l̶o̶s̶e̶ ̶d̶i̶s̶k̶ ̶p̶l̶a̶y̶e̶r̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶o̶n̶t̶ ̶y̶o̶u̶ ̶w̶i̶l̶l̶ ̶g̶e̶t̶ ̶k̶p̶:̶ ̶!̶[̶i̶m̶a̶g̶e̶]̶̶ ̶2̶n̶d̶ ̶M̶E̶T̶H̶O̶D̶:̶ ̶i̶f̶ ̶y̶o̶u̶ ̶d̶o̶n̶t̶ ̶w̶a̶n̶n̶a̶ ̶d̶o̶ ̶t̶h̶i̶s̶ ̶c̶o̶n̶s̶i̶d̶e̶r̶ ̶u̶s̶i̶n̶g̶ ̶t̶h̶e̶ ̶n̶o̶ ̶e̶t̶a̶h̶e̶n̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶s̶ ̶a̶n̶d̶ ̶t̶h̶e̶n̶ ̶l̶o̶a̶d̶i̶n̶g̶ ̶e̶t̶a̶h̶e̶n̶ ̶f̶r̶o̶m̶ ̶t̶h̶i̶s̶ ̶w̶e̶b̶s̶r̶v̶ ̶a̶p̶p̶:̶ ̶h̶t̶t̶p̶s̶:̶/̶/̶g̶i̶t̶h̶u̶b̶.̶c̶o̶m̶/̶c̶y̶3̶3̶h̶c̶/̶p̶s̶5̶-̶p̶a̶y̶l̶o̶a̶d̶-̶l̶o̶a̶d̶e̶r̶ ̶ ̶a̶n̶d̶ ̶s̶i̶n̶c̶e̶ ̶w̶e̶b̶s̶r̶v̶ ̶i̶s̶ ̶i̶n̶c̶l̶u̶d̶e̶d̶ ̶i̶n̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶a̶n̶n̶a̶ ̶d̶o̶ ̶t̶h̶e̶ ̶m̶e̶t̶h̶o̶d̶ ̶u̶s̶e̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶-̶N̶O̶e̶t̶a̶H̶E̶N̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶!̶*̶*̶
 ***
 
 As always thank you [EchoStretch](https://github.com/Echostretch) and [LM](https://github.com/LightningMods) for kstuff and Etahen! Also thanks [hammer 83](https://github.com/hammer-83) for jar loader, [iakdev](https://github.com/iakdev) for usb loader and pipeline loader! thanks to [cryonumb](https://github.com/cryonumb) for bdj elf loader! Thanks [John Törnblom](https://github.com/john-tornblom) for ftpsrv and websrv!
@@ -128,17 +131,18 @@ This iso includes 4 options: pipeline loader, jar loader, usb elf loader and rem
 <br />
 jar files on the iso:
 <br />
-umtx1.jar (modified umtx1 jar to be significantly faster)
+umtx1.jar (modified umtx1 jar by me to be significantly faster)
 <br />
 umtx2.jar
 <br />
-elfloader.jar (modified elf loader jar by BenNox_XD(https://github.com/BenNoxXD) that would fix elf loader on offline bdj crashing)
+
+ elfloader.jar (modified elf loader jar by me that has updated elfloader.elf)
 <br />
-etahen.jar (modified etahen workaround jar by BenNox_XD(https://github.com/BenNoxXD) that would fix etahen on bdj crashing) 
+ etahen.jar (modified etahen workaround jar by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing) 
 <br />
 USB_etahen.jar (same as etahen.jar but loads etahen from USB instead of disk, usb should be in the front usb-A slot on your ps5 and the etaHEN file should be on your root and be called etaHEN.bin, this is for people who wanna have updated versions of etahen on their USB instead of reburning a new iso.
 <br />
-websrv.jar
+websrv.jar (modified websrv jar by [BenNox_XD](https://github.com/BenNoxXD) that would make websrv a little more stable)
 <br />
 ftpsrv_fortesting.jar (included in etahen)
 <br />
