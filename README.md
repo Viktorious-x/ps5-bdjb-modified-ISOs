@@ -224,7 +224,7 @@ Italian:
 [Viktorious (Me) ](https://github.com/Viktorious-x) and a Anonymous developer for modified umtx1.jar that is significantly faster and more stable than the original umtx1.jar
 <br />
 
-[Safety aka 54f3ty aka Elon Musk](https://github.com/54f3ty) for helping me start this project
+[Safety (aka 54f3ty aka Elon Musk)](https://github.com/54f3ty) for helping me start this project
 <br />
 
 [Lazycode](https://github.com/iamLazyCode) for the idea of making a github page for this!
