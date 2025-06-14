@@ -229,6 +229,8 @@ Italian:
 
 [Lazycode](https://github.com/iamLazyCode) for the idea of making a github page for this!
 <br />
+
+All the testers and people who helped me make this!
 <br />
 
 ## License
