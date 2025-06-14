@@ -233,7 +233,7 @@ Italian:
 
 ## License
 
-This project is licensed under the [Apache License 2.0](LICENSE).  
+This project is licensed under the [Apache License 2.0](LICENSE.md).  
 You are free to use, modify, and distribute this project, as long as proper credit is given to all the Developers who worked on this.
 <br />
 <br />
