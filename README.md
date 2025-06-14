@@ -186,13 +186,18 @@ Italian:
 [GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-rilasciato-ps5-bdjb-modified-iso-v1-11-jailbreak-offline-senza-connessione-internet/)
 ***
 <br />
-Thanks to Lazycode for the idea of making a github page for this!
-<br />
-<br />
-<br />
 <br />
 <br />
 
+## License
+
+This project is licensed under the [Apache License 2.0](LICENSE).  
+You are free to use, modify, and distribute this project, as long as proper credit is given.
+<br />
+<br />
+<br />
+<br />
+Thanks to Lazycode for the idea of making a github page for this!
 ```
 ██╗░░░██╗██╗██╗░░██╗████████╗░█████╗░██████╗░██╗░█████╗░██╗░░░██╗░██████╗
 ██║░░░██║██║██║░██╔╝╚══██╔══╝██╔══██╗██╔══██╗██║██╔══██╗██║░░░██║██╔════╝
