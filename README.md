@@ -109,7 +109,7 @@ What it runs: UMTX - ELF LOADER - ETAHEN (kstuff included)
 __________________________________________________________________________________________________________________________________________________________________________________
 NO-etaHEN pipelines
 <br />
-Notice! This is no longer needed since BenNox_XD fixed etahen issue with etahen crashing bdj, so the no etahen pipelines can be still used for testing purpuses
+Notice! This is no longer needed since BenNox_XD fixed etahen issue with etahen crashing bdj, but the no etahen pipelines can be still used for other purposes, for example testing purpuses
 <br />
 These pipelines are the same versions of the ones before, but without the etaHEN in the end, so theres no need for timing closing disk player so you wouldnt get kp.
 What it runs: Everything until etahen.
