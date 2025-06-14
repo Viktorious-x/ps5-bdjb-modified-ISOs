@@ -156,21 +156,22 @@ ________________________________________________________________________________
 English:
 <br />
 
-[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE), [video overview](https://youtu.be/7MhVjhboDkU?t=766) 
+[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE) (v8) , [video overview](https://youtu.be/7MhVjhboDkU?t=766) (v8) 
 <br />
-Warning! This video does contain an older version of the iso
-
-[Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=D8-2zQ6Q-6o)
+Modded Warfare videos about my iso are outdatded, but still useful!
 <br />
 
-[Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=a7BSuP_oIEo)
+[Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=D8-2zQ6Q-6o) (v16)
+<br />
+
+[Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=a7BSuP_oIEo) (v16)
 <br />
 *
 <br />
 Spanish:
 <br />
 
-[TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=_ONNqFJh66w)
+[TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=_ONNqFJh66w) (v16)
 <br />
 *
 <br />
@@ -184,10 +185,10 @@ Portuguese:
 Italian:
 <br />
 
-[BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/05/02/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-10-nuova-iso-modificata-per-i-firmware-6-xx-e-7-xx-della-console-playstation-5/?fsp_sid=24213)
+[BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/06/11/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-17-v1-18/) (v18)
 <br />
 
-[GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-rilasciato-ps5-bdjb-modified-iso-v1-11-jailbreak-offline-senza-connessione-internet/)
+[GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-ps5-bdjb-modified-isos-v1-18-aggiornamento-a-etahen-2-2-guida-allinstallazione/) (v18) 
 ***
 <br />
 <br />
