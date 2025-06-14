@@ -233,6 +233,8 @@ Italian:
 
 All the testers and people who helped me make this!
 <br />
+<br />
+<br />
 
 ## License
 
