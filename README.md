@@ -25,7 +25,8 @@ Contact me on discord: Viktorious_x for feedback
 Paypal: Ask me on discord or Twitter(X)
 <br />
 <br />
-PS! If you donate do not mention jailbreaking or hacking or anything associated with that!
+
+### Notice! If you donate do not mention jailbreaking or hacking or anything associated with that!
 <br />
 Thanks!
 <br />
@@ -84,26 +85,14 @@ It is also supported for etaHEN and kstuff to be in different locations. For exa
 <br />
 <br />
 
-***
+## Explanation of what you can do with this ISO
 
-<br />
-***
-
-As always thank you [EchoStretch](https://github.com/Echostretch) and [LM](https://github.com/LightningMods) for kstuff and Etahen! Also thanks [hammer 83](https://github.com/hammer-83) for jar loader, [iakdev](https://github.com/iakdev) for usb loader and pipeline loader! thanks to [cryonumb](https://github.com/cryonumb) for bdj elf loader! Thanks [John Törnblom](https://github.com/john-tornblom) for ftpsrv and websrv!
- Hope this helps and have fun! Thanks for all the people who made this possible! Also thanks [driverick](https://github.com/DriveRick) (original modded iso creator) and [54f3ty (Elon Musk)](https://github.com/54f3ty) for helping me make this!
-<br />
-<br />
-Also a huge thanks to [BenNox_XD](https://github.com/BenNoxXD) for helping me make offline work and help with the biggest issue so far: etahen causing crashes in bdj, He is a genius for what he made and without him I wouldnt have this working perfectly. Big thanks!
-<br />
-<br />
-<br />
-__________________________________________________________________________________________________________________________________________________________________________________
 <br />
 Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier and faster and automated that way.
 <br />
 theres 4 pipelines in total, I will divide it into 3 categories: ALl-IN-ONE, Jailbreak-ONLY, NO-etaHEN
 <br />
-All the pipelines have 2 versions of them, umtx1 and umtx2 (umtx2 was removed because on bdj its useless, its mostly slower and causes more kp than umtx1. It is not gonna be added back until umtx2 becomes more stable and faster.) . I highly reccomend umtx1, b̶u̶t̶ i̶f̶ y̶o̶u̶ d̶o̶n̶t̶ c̶a̶r̶e̶ a̶b̶o̶u̶t̶ a̶ h̶i̶g̶h̶e̶r̶ c̶h̶a̶n̶c̶e̶ o̶f̶ k̶p̶ a̶n̶d̶ w̶a̶n̶t̶ f̶a̶s̶t̶e̶r̶ t̶i̶m̶e̶s̶ u̶s̶e̶ t̶h̶e̶ u̶m̶t̶x̶2̶ v̶e̶r̶s̶i̶o̶n̶s̶.
+<br />
 
 __________________________________________________________________________________________________________________________________________________________________________________
 All-In-One pipelines:
@@ -129,75 +118,127 @@ w̶i̶t̶h̶ ̶t̶h̶i̶s̶ ̶y̶o̶u̶ ̶c̶a̶n̶ ̶l̶o̶a̶d̶ ̶e̶t̶a̶h�
 
 __________________________________________________________________________________________________________________________________________________________________________________
 <br />
-This iso includes 4 options: pipeline loader, jar loader, usb elf loader and remote jar loader
-<br />
-jar files on the iso:
-<br />
-umtx1.jar (modified umtx1 jar by me to be significantly faster)
-<br />
-umtx2.jar
+This iso includes 4 options: pipeline loader, jar loader, usb loader (for elf/bin/jar payloads) and remote jar loader
 <br />
 
- elfloader.jar (modified elf loader jar by me that has updated elfloader.elf)
+jar files on the iso:
 <br />
- etahen.jar (modified etahen workaround jar by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing) 
 <br />
-USB_etahen.jar (same as etahen.jar but loads etahen from USB instead of disk, usb should be in the front usb-A slot on your ps5 and the etaHEN file should be on your root and be called etaHEN.bin, this is for people who wanna have updated versions of etahen on their USB instead of reburning a new iso.
+
+umtx1.jar (modified umtx1 jar by [me](https://github.com/Viktorious-x) to be significantly faster)
 <br />
+
+umtx2.jar (slower and less stable than umtx1, highly dont reccomend this)
+<br />
+
+elfloader.jar ([modified elf loader jar](https://github.com/Viktorious-x/bdjb-elfloader) by [me](https://github.com/Viktorious-x) that has updated [elfloader.elf](https://github.com/ps5-payload-dev/elfldr))
+<br />
+
+etahen.jar ([BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing)
+<br />
+
 websrv.jar (modified websrv jar by [BenNox_XD](https://github.com/BenNoxXD) that would make websrv a little more stable)
 <br />
-ftpsrv_fortesting.jar (included in etahen)
+
+ftpsrv.jar (included in etahen)
 <br />
-CloseDisk.jar (by BenNox_XD) Closes disk player.
+
+CloseDisk.jar (by [BenNox_XD](https://github.com/BenNoxXD) Closes disk player)
 
 
 __________________________________________________________________________________________________________________________________________________________________________________
 
-Videos and articles about my ISO:
+## Videos and articles about my ISO:
+
 <br />
 *
 <br />
 English:
 <br />
-[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE), [video overview
-<br />](https://youtu.be/7MhVjhboDkU?t=766) Warning! This video does contain an older version of the iso
+
+[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE), [video overview](https://youtu.be/7MhVjhboDkU?t=766) 
+<br />
+Warning! This video does contain an older version of the iso
+
 [Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=D8-2zQ6Q-6o)
 <br />
+
 [Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=a7BSuP_oIEo)
 <br />
 *
 <br />
 Spanish:
 <br />
+
 [TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=_ONNqFJh66w)
 <br />
 *
 <br />
 Portuguese:
 <br />
+
 [Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=QO_XatW6CF0) (v18)
 <br />
 *
 <br />
 Italian:
 <br />
+
 [BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/05/02/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-10-nuova-iso-modificata-per-i-firmware-6-xx-e-7-xx-della-console-playstation-5/?fsp_sid=24213)
 <br />
+
 [GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-rilasciato-ps5-bdjb-modified-iso-v1-11-jailbreak-offline-senza-connessione-internet/)
 ***
 <br />
 <br />
 <br />
 
+## Credits
+### Thanks to...
+<br />
+
+[Hammer-83](https://github.com/hammer-83) and all the other Contributors ([here](https://github.com/hammer-83/ps5-jar-loader/blob/main/README.md#credits)) for the Original [Ps5 Jar Loader](https://github.com/hammer-83/ps5-jar-loader) project
+<br />
+
+[Echostretch](https://github.com/EchoStretch) and all the other Contributors for [kstuff](https://github.com/EchoStretch/kstuff)
+<br />
+
+[LightningMods](https://github.com/LightningMods) and all the other Contributors ([here](https://github.com/etaHEN/etaHEN?tab=readme-ov-file#contributors)) for [etaHEN](https://github.com/etaHEN/etaHEN)
+<br />
+
+[iakdev](https://github.com/iakdev) for USB loader and Pipeline runner ([here](https://github.com/iakdev/ps5-jar-loader))
+<br />
+
+[John Törnblom](https://github.com/john-tornblom) (aka SB) and all the other Contributors for [websrv](https://github.com/ps5-payload-dev/websrv/) and [ftpsrv](https://github.com/ps5-payload-dev/ftpsrv)
+<br />
+
+[CryoNumb](https://github.com/cryonumb/) for [BD-J Elf Loader](https://github.com/cryonumb/elfloader)
+<br />
+
+[BenNox_XD](https://github.com/BenNoxXD) for [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader), Modified [websrv.jar](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader/releases/tag/2.1b) for extra stability and help regarding this project
+<br />
+
+[DriveRick](https://github.com/DriveRick) for [the Original Modded Menu for the Ps5 Jar Loader](https://github.com/DriveRick/PS5-ToolDisc) and help regarding the project
+<br />
+
+[Viktorious (Me) ](https://github.com/Viktorious-x) and a Anonymous developer for modified umtx1.jar that is significantly faster and more stable than the original umtx1.jar
+<br />
+
+[Safety aka 54f3ty aka Elon Musk](https://github.com/54f3ty) for helping me start this project
+<br />
+
+[Lazycode](https://github.com/iamLazyCode) for the idea of making a github page for this!
+<br />
+<br />
+
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).  
-You are free to use, modify, and distribute this project, as long as proper credit is given.
+You are free to use, modify, and distribute this project, as long as proper credit is given to all the Developers who worked on this.
 <br />
 <br />
 <br />
 <br />
-Thanks to Lazycode for the idea of making a github page for this!
 ```
 ██╗░░░██╗██╗██╗░░██╗████████╗░█████╗░██████╗░██╗░█████╗░██╗░░░██╗░██████╗
 ██║░░░██║██║██║░██╔╝╚══██╔══╝██╔══██╗██╔══██╗██║██╔══██╗██║░░░██║██╔════╝
