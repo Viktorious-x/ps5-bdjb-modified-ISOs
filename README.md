@@ -148,7 +148,7 @@ CloseDisk.jar (by [BenNox_XD](https://github.com/BenNoxXD) Closes disk player)
 
 __________________________________________________________________________________________________________________________________________________________________________________
 
-## Videos and articles about my ISO:
+## Videos & articles about my ISO:
 
 <br />
 <br />
