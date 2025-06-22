@@ -178,6 +178,9 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 
 [TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=_ONNqFJh66w) (v16)
 <br />
+
+[NanospeedGamer](https://www.youtube.com/@NanospeedGamer): [video](https://www.youtube.com/watch?v=K1JveSa5NvI) (v17) 
+<br />
 <br />
 
 ### Portuguese:
@@ -193,7 +196,16 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 [BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/06/11/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-17-v1-18/) (v18)
 <br />
 
-[GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-ps5-bdjb-modified-isos-v1-18-aggiornamento-a-etahen-2-2-guida-allinstallazione/) (v18) 
+[GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-ps5-bdjb-modified-isos-v1-18-aggiornamento-a-etahen-2-2-guida-allinstallazione/) (v18)
+<br />
+<br />
+ 
+### Filipino:
+<br />
+
+[JhanGamingZone](https://www.youtube.com/@JhanGamingZone): [video tutorial](https://www.youtube.com/watch?v=gG5CNPwH908) (v18)
+<br />
+
 ***
 <br />
 <br />
