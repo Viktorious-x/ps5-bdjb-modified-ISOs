@@ -248,7 +248,10 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 [Lazycode](https://github.com/iamLazyCode) for the idea of making a github page for this!
 <br />
 
-All the testers and people who helped me make this!
+All the other devs who contributed to this project!
+<br />
+
+All the testers and people who helped me test this project!
 <br />
 <br />
 <br />
@@ -257,6 +260,8 @@ All the testers and people who helped me make this!
 
 This project is licensed under the [Apache License 2.0](LICENSE.md).  
 You are free to use, modify, and distribute this project, as long as proper credit is given to all the Developers who contributed to this.
+
+<br />
 <br />
 <br />
 <br />
