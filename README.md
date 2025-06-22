@@ -218,10 +218,10 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 [Hammer-83](https://github.com/hammer-83) and all the other Contributors ([here](https://github.com/hammer-83/ps5-jar-loader/blob/main/README.md#credits)) for the Original [Ps5 Jar Loader](https://github.com/hammer-83/ps5-jar-loader) project
 <br />
 
-[Echostretch](https://github.com/EchoStretch) and all the other Contributors for [kstuff](https://github.com/EchoStretch/kstuff)
+[Echostretch](https://github.com/EchoStretch) and all the other Contributors for [kstuff](https://github.com/EchoStretch/kstuff) on all firmwares that support BD-JB ([ko-fi](https://ko-fi.com/echostretch/))
 <br />
 
-[LightningMods](https://github.com/LightningMods) and all the other Contributors ([here](https://github.com/etaHEN/etaHEN?tab=readme-ov-file#contributors)) for [etaHEN](https://github.com/etaHEN/etaHEN)
+[LightningMods](https://github.com/LightningMods) and all the other Contributors ([here](https://github.com/etaHEN/etaHEN?tab=readme-ov-file#contributors)) for [etaHEN](https://github.com/etaHEN/etaHEN) ([ko-fi](https://ko-fi.com/lightningmods))
 <br />
 
 [iakdev](https://github.com/iakdev) for USB loader and Pipeline runner ([here](https://github.com/iakdev/ps5-jar-loader))
@@ -239,7 +239,7 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 [DriveRick](https://github.com/DriveRick) for [the Original Modded Menu for the Ps5 Jar Loader](https://github.com/DriveRick/PS5-ToolDisc) and help regarding this project ([ko-fi](https://ko-fi.com/firlefanz))
 <br />
 
-[Viktorious (Me) ](https://github.com/Viktorious-x) and a Anonymous developer for modified umtx1.jar that is significantly faster and more stable than the original umtx1.jar
+[Viktorious (Me) ](https://github.com/Viktorious-x) and a Anonymous developer for modified umtx1.jar that is significantly faster and more stable than the original umtx1.jar ([ko-fi](https://ko-fi.com/viktorious))
 <br />
 
 [Safety (aka 54f3ty aka Elon Musk)](https://github.com/54f3ty) for helping me start this project
