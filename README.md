@@ -151,14 +151,16 @@ ________________________________________________________________________________
 ## Videos and articles about my ISO:
 
 <br />
-*
 <br />
-English:
+
+### English:
 <br />
 
 [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE) (v8) , [video overview](https://youtu.be/7MhVjhboDkU?t=766) (v8) 
 <br />
+<br />
 Modded Warfare videos about my iso are outdatded, but still useful!
+<br />
 <br />
 
 [Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=D8-2zQ6Q-6o) (v16)
@@ -166,23 +168,26 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 
 [Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=a7BSuP_oIEo) (v16)
 <br />
-*
+
+[Mc Kuc](https://www.youtube.com/@McKuc/) in collaboration with me: [video overview + custom icons](https://www.youtube.com/watch?v=0kusnCdyYuc) (v19 BETA Version)
 <br />
-Spanish:
+<br />
+
+### Spanish:
 <br />
 
 [TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=_ONNqFJh66w) (v16)
 <br />
-*
 <br />
-Portuguese:
+
+### Portuguese:
 <br />
 
 [Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=QO_XatW6CF0) (v18)
 <br />
-*
 <br />
-Italian:
+
+### Italian:
 <br />
 
 [BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/06/11/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-17-v1-18/) (v18)
