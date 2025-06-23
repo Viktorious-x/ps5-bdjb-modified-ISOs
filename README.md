@@ -26,7 +26,7 @@ Paypal: Ask me on discord or Twitter(X)
 <br />
 <br />
 
-### Notice! If you donate do not mention jailbreaking or hacking or anything associated with that!
+#### Notice! If you donate do not mention jailbreaking or hacking or anything associated with that!
 <br />
 Thanks!
 <br />
@@ -90,38 +90,50 @@ It is also supported for etaHEN and kstuff to be in different locations. For exa
 <br />
 Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier and faster and automated that way.
 <br />
-theres 4 pipelines in total, I will divide it into 3 categories: ALl-IN-ONE, Jailbreak-ONLY, NO-etaHEN
+theres 4 pipelines in total, I will divide it into 3 categories: ALL-IN-ONE, NormalJailbreak, NOetaHEN
 <br />
 <br />
 
 __________________________________________________________________________________________________________________________________________________________________________________
-All-In-One pipelines:
+### All-In-One pipelines:
+
 <br />
 These pipelines have everything you would want
-What it runs: UMTX - ELF LOADER- WEB SERVER - ETAHEN (kstuff included) 
+<br />
+
+#### What it runs: UMTX - ELF LOADER- WEB SERVER - ETAHEN (kstuff included) 
 
 __________________________________________________________________________________________________________________________________________________________________________________
-Jailbreak-ONLY pipelines
+### Jailbreak-ONLY pipelines
+
 <br />
 These pipelines are more simplified and has the minimal you need as fast as possible
-What it runs: UMTX - ELF LOADER - ETAHEN (kstuff included) 
+<br />
+
+#### What it runs: UMTX - ELF LOADER - ETAHEN (kstuff included) 
 
 __________________________________________________________________________________________________________________________________________________________________________________
-NO-etaHEN pipelines
+### NOetaHEN pipelines
+
 <br />
-Notice! This is no longer needed since BenNox_XD fixed etahen issue with etahen crashing bdj, but the no etahen pipelines can be still used for other purposes, for example testing purpuses
+
+#### Notice! This is no longer needed since BenNox_XD fixed etahen issue with etahen crashing bdj, but the no etahen pipelines can be still used for other purposes, for example testing purpuses
 <br />
-These pipelines are the same versions of the ones before, but without the etaHEN in the end, so theres no need for timing closing disk player so you wouldnt get kp.
+
+#### These pipelines are the same versions of the ones before, but without the etaHEN in the end, so theres no need for timing closing disk player so you wouldnt get kp.
 What it runs: Everything until etahen.
 w̶i̶t̶h̶ ̶t̶h̶i̶s̶ ̶y̶o̶u̶ ̶c̶a̶n̶ ̶l̶o̶a̶d̶ ̶e̶t̶a̶h̶e̶n̶ ̶e̶i̶t̶h̶e̶r̶ ̶v̶i̶a̶ ̶i̶n̶j̶e̶c̶t̶i̶n̶g̶ ̶i̶t̶ ̶o̶r̶ ̶u̶s̶i̶n̶g̶ ̶t̶h̶i̶s̶ ̶w̶e̶b̶s̶r̶v̶ ̶a̶p̶p̶:̶ ̶h̶t̶t̶p̶s̶:̶/̶/̶g̶i̶t̶h̶u̶b̶.̶c̶o̶m̶/̶c̶y̶3̶3̶h̶c̶/̶p̶s̶5̶-̶p̶a̶y̶l̶o̶a̶d̶-̶l̶o̶a̶d̶e̶r̶ ̶
 ̶a̶n̶d̶ ̶s̶i̶n̶c̶e̶ ̶w̶e̶b̶s̶r̶v̶ ̶i̶s̶ ̶i̶n̶c̶l̶u̶d̶e̶d̶ ̶i̶n̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶a̶n̶n̶a̶ ̶d̶o̶ ̶t̶h̶i̶s̶ ̶m̶e̶t̶h̶o̶d̶ ̶u̶s̶e̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶-̶N̶O̶e̶t̶a̶H̶E̶N̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶!̶
 
 __________________________________________________________________________________________________________________________________________________________________________________
 <br />
-This iso includes 4 options: pipeline loader, jar loader, usb loader (for elf/bin/jar payloads) and remote jar loader
+
+## This iso includes 4 options: pipeline loader, jar loader, usb loader (for elf/bin/jar payloads) and remote jar loader
+<br />
+<br />
 <br />
 
-jar files on the iso:
+### jar files on the iso:
 <br />
 <br />
 
@@ -134,18 +146,22 @@ umtx2.jar (slower and less stable than umtx1, highly dont reccomend this)
 elfloader.jar ([modified elf loader jar](https://github.com/Viktorious-x/bdjb-elfloader) by [me](https://github.com/Viktorious-x) that has updated [elfloader.elf](https://github.com/ps5-payload-dev/elfldr))
 <br />
 
-etahen.jar ([BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing)
+etahen.jar - [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing) (requires Elf Loader running)
 <br />
 
-websrv.jar (modified websrv jar by [BenNox_XD](https://github.com/BenNoxXD) that would make websrv a little more stable)
+websrv.jar - [websrv.elf](https://github.com/ps5-payload-dev/websrv/) turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
 <br />
 
-ftpsrv.jar (included in etahen)
+ftpsrv.jar - ftp server, included in etahen turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
 <br />
 
-CloseDisk.jar (by [BenNox_XD](https://github.com/BenNoxXD) Closes disk player)
+airpsx.jar -  Remote management software for Jailbroken PlayStation 5 turned into a JAR (by [barisyild](https://github.com/barisyild)) (requires Elf Loader running) (will be added in v19)
+<br />
 
-
+CloseDisk.jar (Closes Disk Player by [BenNox_XD](https://github.com/BenNoxXD)) (requires Elf Loader running)
+<br />
+<br />
+<br />
 __________________________________________________________________________________________________________________________________________________________________________________
 
 ## Videos & articles about my ISO:
@@ -267,6 +283,7 @@ You are free to use, modify, and distribute this project, as long as proper cred
 <br />
 <br />
 <br />
+
 ```
 ██╗░░░██╗██╗██╗░░██╗████████╗░█████╗░██████╗░██╗░█████╗░██╗░░░██╗░██████╗
 ██║░░░██║██║██║░██╔╝╚══██╔══╝██╔══██╗██╔══██╗██║██╔══██╗██║░░░██║██╔════╝
