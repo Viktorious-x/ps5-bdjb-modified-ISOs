@@ -146,7 +146,7 @@ umtx2.jar (slower and less stable than umtx1, highly dont reccomend this)
 elfloader.jar ([modified elf loader jar](https://github.com/Viktorious-x/bdjb-elfloader) by [me](https://github.com/Viktorious-x) that has updated [elfloader.elf](https://github.com/ps5-payload-dev/elfldr))
 <br />
 
-etahen.jar - [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) that would fix etahen on bdj crashing) (requires Elf Loader running)
+etahen.jar - [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) that would fix [etaHEN](https://github.com/etaHEN/etaHEN) on bdj crashing) (requires Elf Loader running)
 <br />
 
 websrv.jar - [websrv.elf](https://github.com/ps5-payload-dev/websrv/) turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
@@ -155,10 +155,10 @@ websrv.jar - [websrv.elf](https://github.com/ps5-payload-dev/websrv/) turned int
 ftpsrv.jar - ftp server, included in etahen turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
 <br />
 
-airpsx.jar -  Remote management software for Jailbroken PlayStation 5 turned into a JAR (by [barisyild](https://github.com/barisyild)) (requires Elf Loader running) (will be added in v19)
+airpsx.jar -  Remote management software for Jailbroken PlayStation 5 turned into a JAR (by [barisyild](https://github.com/barisyild)) (requires Elf Loader running)
 <br />
 
-CloseDisk.jar (Closes Disk Player by [BenNox_XD](https://github.com/BenNoxXD)) (requires Elf Loader running)
+[CloseDisk.jar](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader/tree/main/ClosePlayer) (Closes Disk Player by [BenNox_XD](https://github.com/BenNoxXD)) (requires Elf Loader running)
 <br />
 <br />
 <br />
@@ -249,6 +249,9 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 [CryoNumb](https://github.com/cryonumb/) for [BD-J Elf Loader](https://github.com/cryonumb/elfloader)
 <br />
 
+[barisyild](https://github.com/barisyild/) for [airpsx](https://github.com/barisyild/airpsx)
+<br />
+
 [BenNox_XD](https://github.com/BenNoxXD) for [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader), Modified [websrv.jar](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader/releases/tag/2.1b) for extra stability and help regarding this project
 <br />
 
@@ -259,6 +262,9 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 <br />
 
 [Safety (aka 54f3ty aka Elon Musk)](https://github.com/54f3ty) for helping me start this project
+<br />
+
+[Dr.Oid](https://x.com/RepassyMate) for the elf payload injector java code
 <br />
 
 [Lazycode](https://github.com/iamLazyCode) for the idea of making a github page for this!
