@@ -179,6 +179,8 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 <br />
 <br />
 
+[Michael Crump](https://www.youtube.com/@mbcrump): [Video Tutorial](https://www.youtube.com/watch?v=bmr3Ybz8olU) (v19)
+
 [Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=D8-2zQ6Q-6o) (v16)
 <br />
 
