@@ -264,7 +264,7 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 [DriveRick](https://github.com/DriveRick) for [the Original Modded Menu for the Ps5 Jar Loader](https://github.com/DriveRick/PS5-ToolDisc) and help regarding this project ([ko-fi](https://ko-fi.com/firlefanz))
 <br />
 
-[Viktorious (Me) ](https://github.com/Viktorious-x) and a Anonymous developer for modified umtx1.jar that is significantly faster and more stable than the original umtx1.jar ([ko-fi](https://ko-fi.com/viktorious))
+[Viktorious (Me) ](https://github.com/Viktorious-x) and a Anonymous developer (for the help with figuring it out at first) for modified umtx1.jar that is significantly faster and more stable than the original umtx1.jar ([ko-fi](https://ko-fi.com/viktorious))
 <br />
 
 [Safety (aka 54f3ty aka Elon Musk)](https://github.com/54f3ty) for helping me start this project
