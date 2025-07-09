@@ -218,7 +218,7 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 ### Italian:
 <br />
 
-[BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/06/11/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-17-v1-18/) (v18)
+[BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/07/09/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-19/) (v19)
 <br />
 
 [GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-ps5-bdjb-modified-isos-v1-19-v19-novita-miglioramenti-e-tutorial/) (v19)
