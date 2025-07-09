@@ -210,6 +210,8 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 
 [Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=zXCYS4ULb34) (v19)
 <br />
+
+[Exploit BR](https://www.youtube.com/@GAMERAMBX): [video](https://www.youtube.com/watch?v=22ihSgf5rko) (v19)
 <br />
 
 ### Italian:
