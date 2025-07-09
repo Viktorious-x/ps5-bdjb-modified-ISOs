@@ -225,7 +225,7 @@ Modded Warfare videos about my iso are outdatded, but still useful!
 ### Filipino:
 <br />
 
-[JhanGamingZone](https://www.youtube.com/@JhanGamingZone): [video tutorial](https://www.youtube.com/watch?v=gG5CNPwH908) (v18)
+[JhanGamingZone](https://www.youtube.com/@JhanGamingZone): [video tutorial](https://www.youtube.com/watch?v=oYA566BPz7c) (v19)
 <br />
 
 ***
