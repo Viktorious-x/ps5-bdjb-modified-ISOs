@@ -238,6 +238,9 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 [JhanGamingZone](https://www.youtube.com/@JhanGamingZone): [video tutorial](https://www.youtube.com/watch?v=oYA566BPz7c) (v19)
 <br />
 
+[TITOJOFTV](https://www.youtube.com/@jofernmacawili2313/): [video](https://www.youtube.com/watch?v=ko1yFdUXfRw) (v19)
+<br />
+
 ***
 <br />
 <br />
