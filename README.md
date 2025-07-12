@@ -35,11 +35,18 @@ Thanks!
 
 ## Tutorial: 
 <br />
-Burn the latest iso on your BD disk using imgburn (or any other preferred software), run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will be on the home menu and etahen will be automatically loaded as soon as you are on the home screen. Enjoy! (if etahen toolbox doesnt appear re-inject it through itemzflow!) 
+Burn the latest iso on your BD disk using imgburn (or any other preferred software), run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will be on the home menu and etahen will be automatically loaded as soon as you are on the home screen. 
+<br />
+Enjoy!
 <br />
 <br />
-Modded Warfare Vid: https://www.youtube.com/watch?v=r6BAxgGJxcE 
+
+[Modded Warfare's tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE) (outdated ISO in this video, but the tutorial is useful)
 <br />
+
+[Michael Crump's video overview](https://www.youtube.com/watch?v=bmr3Ybz8olU) (latest version v19 in this video)
+<br />
+
 <br />
 If you have a BD-r and you still want to edit files on the iso in the future here is a tutorial by nas7536:
 <br />
@@ -175,13 +182,13 @@ ________________________________________________________________________________
 <br />
 
 
-[Michael Crump](https://www.youtube.com/@mbcrump): [video tutorial](https://www.youtube.com/watch?v=bmr3Ybz8olU) (v19)
+[Michael Crump](https://www.youtube.com/@mbcrump): [video overview](https://www.youtube.com/watch?v=bmr3Ybz8olU) (v19)
 <br />
 
-[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE) (v8) , [video overview](https://youtu.be/7MhVjhboDkU?t=766) (v8) 
+[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE) (v8) , [video overview](https://www.youtube.com/watch?v=6plH2ADkZi0&t=486s) (v19) 
 <br />
 <br />
-Modded Warfare videos about my iso are outdatded, but still useful!
+Modded Warfare's tutorial about my iso is outdatded, but still useful!
 <br />
 <br />
 
