@@ -195,6 +195,9 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 <br />
 <br />
 
+[GameConsoleFish](https://www.youtube.com/@GameConsolefish): [video tutorial](https://www.youtube.com/watch?v=I47r8fKjTec) (v19)
+<br />
+
 [Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=D8-2zQ6Q-6o) (v16)
 <br />
 
