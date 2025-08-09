@@ -15,15 +15,13 @@ i am on 7.61 so thats the firmware version i test on
 Contact me on discord: Viktorious_x for feedback
 <br />
 <br />
+<br />
 
-## If you would like to support what I do, here is my donation page:
+### If you would like to support what I do, here is my donation page:
 <br />
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/viktorious)
 
-<br />
-Paypal: Ask me on discord or Twitter(X)
-<br />
 <br />
 
 #### Notice! If you donate do not mention jailbreaking or hacking or anything associated with that!
