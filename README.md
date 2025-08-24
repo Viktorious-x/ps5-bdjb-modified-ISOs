@@ -31,6 +31,33 @@ Thanks!
 <br />
 <br /> 
 
+## Beta ISO versions:
+My latest ISO betas are available on my [ko-fi shop](https://ko-fi.com/viktorious/shop) for 0€+
+<br /> 
+
+My latest ISO beta: [v20BETAv2](https://ko-fi.com/s/ce844a3276)
+<br /> 
+<br /> 
+<br /> 
+
+## Custom ISO versions:
+I can create you a custom iso version for your liking
+<br /> 
+
+What I can change:
+- Icons (Pipeline, Disc, USB, Remote)
+- Thumbnail (the AUTO JAILBREAK ICON and Title too)
+- All the text overall - I can translate the iso to another language etc
+- customize pipelines 
+- and more!
+<br /> 
+
+DM me on discord: viktorious_x for pricing and details.
+<br />
+<br /> 
+<br /> 
+
+
 ## Tutorial: 
 <br />
 Burn the latest iso on your BD disk using imgburn (or any other preferred software), run the disk on your ps5 and select any pipeline (i reccomend 1. pipeline), Once the process is finished you will be on the home menu and etahen will be automatically loaded as soon as you are on the home screen. 
