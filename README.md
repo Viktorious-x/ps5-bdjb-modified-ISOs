@@ -93,7 +93,7 @@ Etahen is loaded from the disc normally, but if you dont want to update iso to u
 <br />
 
 The way it checks where to load from is in this order: USB, /data on ps5 and then if those two dont have etaHEN.bin on there it will load it from the disc itself - Huge thanks to
- [BenNox_XD](https://github.com/BenNoxXD) for making this a thing, he is the coder behind it
+ [BenNox_XD](https://github.com/BenNoxXD) for making this a thing, he is the developer behind it
 
 <br />
 <br />
