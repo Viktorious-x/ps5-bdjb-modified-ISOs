@@ -181,6 +181,8 @@ umtx1.jar (modified umtx1 jar by [me](https://github.com/Viktorious-x) to be sig
 umtx2.jar (slower and less stable than umtx1, highly dont reccomend this)
 <br />
 
+jailbreak.jar (required to load this payload to be able to load payloads from USB loader) 
+
 elfloader.jar ([modified elf loader jar](https://github.com/Viktorious-x/bdjb-elfloader) by [me](https://github.com/Viktorious-x) that has updated [elfloader.elf](https://github.com/ps5-payload-dev/elfldr))
 <br />
 
@@ -190,10 +192,13 @@ etahen.jar - [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) b
 websrv.jar - [websrv.elf](https://github.com/ps5-payload-dev/websrv/) turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
 <br />
 
-ftpsrv.jar - ftp server, included in etahen turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
+ftpsrv.jar - ftp server, included in etahen, [ftpsrv.elf](https://github.com/ps5-payload-dev/ftpsrv/) turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
 <br />
 
-airpsx.jar -  Remote management software for Jailbroken PlayStation 5 turned into a JAR (by [barisyild](https://github.com/barisyild)) (requires Elf Loader running)
+airpsx.jar - Remote management software for Jailbroken PlayStation 5, [airpsx.elf](https://github.com/barisyild/airpsx) turned into a JAR (by [barisyild](https://github.com/barisyild)) (requires Elf Loader running)
+<br />
+
+ps5debug.jar - Debugger for the PlayStation 5, included in etahen, [ps5debug.elf](https://github.com/GoldHEN/ps5debug) turned into a JAR (by [ctn123](https://github.com/ctn123) and [SiSTRo](https://github.com/SiSTR0)) (requires Elf Loader running)
 <br />
 
 [CloseDisk.jar](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader/tree/main/ClosePlayer) (Closes Disk Player by [BenNox_XD](https://github.com/BenNoxXD)) (requires Elf Loader running)
@@ -311,6 +316,8 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 
 [Viktorious (Me) ](https://github.com/Viktorious-x) and a Anonymous developer (for the help with figuring it out at first) for modified umtx1.jar that is significantly faster and more stable than the original umtx1.jar ([ko-fi](https://ko-fi.com/viktorious))
 <br />
+
+[ctn123](https://github.com/ctn123) and [SiSTRo](https://github.com/SiSTR0) ([ko-fi](https://ko-fi.com/SiSTRo) for [ps5debug](https://github.com/GoldHEN/ps5debug)
 
 [Safety (aka 54f3ty aka Elon Musk)](https://github.com/54f3ty) for helping me start this project
 <br />
