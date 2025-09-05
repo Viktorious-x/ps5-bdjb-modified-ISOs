@@ -226,13 +226,14 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 <br />
 <br />
 
+
+[Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=4tCXfmOhLd8) (v20)
+<br />
+
 [GameConsoleFish](https://www.youtube.com/@GameConsolefish): [video tutorial](https://www.youtube.com/watch?v=I47r8fKjTec) (v19)
 <br />
 
 [Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=D8-2zQ6Q-6o) (v16)
-<br />
-
-[Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=a7BSuP_oIEo) (v16)
 <br />
 
 [Mc Kuc](https://www.youtube.com/@McKuc/) in collaboration with me: [video overview + custom icons](https://www.youtube.com/watch?v=0kusnCdyYuc) (v19 BETA Version)
@@ -262,10 +263,10 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 ### Italian:
 <br />
 
-[BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/07/09/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-19/) (v19)
+[BiteYourConsole](https://x.com/BiteYourConsole): [article](https://www.biteyourconsole.net/2025/09/05/scena-ps5-rilasciato-ps5-bdjb-modified-iso-v1-20-v20) (v20)
 <br />
 
-[GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-ps5-bdjb-modified-isos-v1-19-v19-novita-miglioramenti-e-tutorial/) (v19)
+[GamesAndConsoles](https://x.com/GAMESANDCON): [article](https://www.gamesandconsoles.net/ps5-ps5-bd-jb-modified-isos-v1-20-la-guida-completa-alliso-all-in-one-offline-piu-aggiornata/) (v20)
 <br />
 <br />
  
