@@ -245,8 +245,7 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 
 [TheWizWiki](https://www.youtube.com/@TheWizWiki): [video](https://www.youtube.com/watch?v=_ONNqFJh66w) (v16)
 <br />
-
-[NanospeedGamer](https://www.youtube.com/@NanospeedGamer): [video](https://www.youtube.com/watch?v=SPx_GvqlDqw) (v19) 
+ 
 <br />
 <br />
 
