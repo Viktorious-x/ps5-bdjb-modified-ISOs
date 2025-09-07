@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disclib xmlns="urn:BDA:bdmv;disclib">
+  <di:discinfo xmlns:di="urn:BDA:bdmv;discinfo">
+    <di:title>
+      <di:name>PS5 ToolDisc 6.00-7.61</di:name>
+      <di:numSets>1</di:numSets>
+      <di:setNumber>1</di:setNumber>
+    </di:title>
+    <di:description>
+      <di:tableOfContents>
+        <di:titleName titleNumber="1">PS5 ToolDisc 6.00-7.61</di:titleName>
+      </di:tableOfContents>
+      <di:thumbnail href="ps5loader.png"/>
+    </di:description>
+    <di:language>eng</di:language>
+  </di:discinfo>
+</disclib>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="bdjstack">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pbp-base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pbp-desktop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pbp-rmi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javatv.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gem.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bdj.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/pbp-javadoc.zip!/pbp-spec" />
+      <root url="jar://$PROJECT_DIR$/lib/javatv-javadoc.zip!/javatv-spec" />
+      <root url="jar://$PROJECT_DIR$/lib/gem-javadoc.zip!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

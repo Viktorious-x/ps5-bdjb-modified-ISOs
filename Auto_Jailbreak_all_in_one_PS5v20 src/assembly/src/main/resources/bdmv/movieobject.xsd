@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="movieObjectFile" type="movieObjectFile"/>
+
+  <xs:complexType name="movieObjectFile">
+    <xs:sequence>
+      <xs:element name="version" type="xs:string"/>
+      <xs:element name="movieObjects" type="movieObjects"/>
+      <xs:element name="extensionData" type="extensionData"/>
+      <xs:element name="paddingsN1" type="xs:int"/>
+      <xs:element name="paddingsN2" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="extensionData">
+    <xs:sequence>
+      <xs:element name="data" type="xs:short" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="movieObjects">
+    <xs:sequence>
+      <xs:element name="movieObject" type="movieObject" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="movieObject">
+    <xs:sequence>
+      <xs:element name="navigationCommands" type="navigationCommand" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="terminalInfo" type="terminalInfo" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="mobjId" type="xs:int" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="navigationCommand">
+    <xs:sequence>
+      <xs:element name="command" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="commandId" type="xs:int" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="terminalInfo">
+    <xs:sequence>
+      <xs:element name="menuCallMask" type="xs:boolean"/>
+      <xs:element name="resumeIntentionFlag" type="xs:boolean"/>
+      <xs:element name="titleSearchMask" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

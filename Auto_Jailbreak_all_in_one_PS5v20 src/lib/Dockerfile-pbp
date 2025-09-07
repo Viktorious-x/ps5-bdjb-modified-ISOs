@@ -1,0 +1,30 @@
+FROM ubuntu:noble AS build
+
+WORKDIR /phoneme
+
+RUN apt-get update \
+ && apt-get install -y build-essential zip gcc-multilib openjdk-8-jdk-headless git sed wget \
+ && git clone --depth=1 https://github.com/magicus/phoneME.git .
+
+WORKDIR /phoneme/cdc/build/linux-x86-generic
+
+RUN wget https://repo1.maven.org/maven2/junit/junit/3.8/junit-3.8.jar \
+ && sed -i 's/-march=i686/-march=i686 -m32/g' GNUmakefile \
+ && sed -i -E 's/^LINK_ARCH_FLAGS.+$/LINK_ARCH_FLAGS = -m32/g' GNUmakefile \
+ && make CVM_PRELOAD_LIB=false J2ME_CLASSLIB=basis AWT_IMPLEMENTATION=gunit JUNIT_JARFILE=./junit-3.8.jar
+
+WORKDIR /pbp
+
+RUN mkdir -p tmp base desktop/java rmi/java \
+ && unzip /phoneme/cdc/build/linux-x86-generic/btclasses.zip -d tmp \
+ && unzip -o /phoneme/cdc/build/linux-x86-generic/lib/basis.jar -d tmp -x 'META-INF/*' \
+ && mv tmp/java/awt desktop/java \
+ && mv tmp/java/beans desktop/java \
+ && mv tmp/java/rmi rmi/java \
+ && mv tmp/java tmp/javax base \
+ && jar cvf pbp-base.jar -C base . \
+ && jar cvf pbp-desktop.jar -C desktop . \
+ && jar cvf pbp-rmi.jar -C rmi .
+
+FROM scratch AS export
+COPY --from=build /pbp/pbp*.jar .
