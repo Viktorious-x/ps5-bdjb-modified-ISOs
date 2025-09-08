@@ -233,7 +233,7 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 [Dravszoo](https://www.youtube.com/@dravszoo): [video](https://www.youtube.com/watch?v=4tCXfmOhLd8) (v20)
 <br />
 
-[GameConsoleFish](https://www.youtube.com/@GameConsolefish): [video tutorial](https://www.youtube.com/watch?v=I47r8fKjTec) (v19)
+[GameConsoleFish](https://www.youtube.com/@GameConsolefish): [video tutorial](https://www.youtube.com/watch?v=I1p1pFocdRk) (v20)
 <br />
 
 [Mc Kuc](https://www.youtube.com/@McKuc/) in collaboration with me: [video overview + custom icons](https://www.youtube.com/watch?v=0kusnCdyYuc) (v19 BETA Version)
@@ -251,10 +251,11 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 ### Portuguese:
 <br />
 
-[Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=zXCYS4ULb34), [short video](https://www.youtube.com/shorts/yImqPuz7toU) (v19)
+[Exploit BR](https://www.youtube.com/@GAMERAMBX): [video](https://www.youtube.com/watch?v=oLKh4ELDdYo) (v20)
 <br />
 
-[Exploit BR](https://www.youtube.com/@GAMERAMBX): [video](https://www.youtube.com/watch?v=22ihSgf5rko) (v19)
+[Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=zXCYS4ULb34), [short video](https://www.youtube.com/shorts/yImqPuz7toU) (v19)
+
 <br />
 <br />
 
