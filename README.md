@@ -254,7 +254,7 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 [Exploit BR](https://www.youtube.com/@GAMERAMBX): [video](https://www.youtube.com/watch?v=oLKh4ELDdYo) (v20)
 <br />
 
-[Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=zXCYS4ULb34), [short video](https://www.youtube.com/shorts/yImqPuz7toU) (v19)
+[Explosão do Game](https://www.youtube.com/@Explosaodogame): [video](https://www.youtube.com/watch?v=0nXgfcKIwZM) (v20), [short video](https://www.youtube.com/shorts/yImqPuz7toU) (v19)
 
 <br />
 <br />
