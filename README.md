@@ -69,7 +69,7 @@ Enjoy!
 [Modded Warfare's tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE) (outdated ISO in this video, but the tutorial is useful)
 <br />
 
-[Michael Crump's video overview](https://www.youtube.com/watch?v=bmr3Ybz8olU) (latest version v19 in this video)
+[Michael Crump's video overview](https://www.youtube.com/watch?v=bmr3Ybz8olU) (version v19 in this video)
 <br />
 
 <br />
