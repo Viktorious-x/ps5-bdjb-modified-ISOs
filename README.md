@@ -328,6 +328,10 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 [Lazycode](https://github.com/iamLazyCode) for the idea of making a github page for this!
 <br />
 
+
+[Dr.Yenyen](https://github.com/DrYenyen) for [Emotional Support](https://www.sciencedirect.com/topics/social-sciences/emotional-support)
+<br />
+
 All the other devs who contributed to this project!
 <br />
 
