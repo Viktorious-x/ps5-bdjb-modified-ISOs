@@ -332,7 +332,11 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 [Dr.Yenyen](https://github.com/DrYenyen) for [Emotional Support](https://www.sciencedirect.com/topics/social-sciences/emotional-support)
 <br />
 
+[UwUsef](https://youtube.com/@yousef_fcb) for [Moral Support](https://en.wikipedia.org/wiki/Moral_support)
+<br />
+
 All the other devs who contributed to this project!
+
 <br />
 
 All the testers and people who helped me test this project!
