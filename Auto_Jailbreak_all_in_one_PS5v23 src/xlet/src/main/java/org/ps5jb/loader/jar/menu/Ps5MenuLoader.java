@@ -101,7 +101,7 @@ public class Ps5MenuLoader {
         g2d.setColor(KernelReadWrite.hasAccessorState() ? Color.GREEN : Color.RED);
         g2d.setFont(new Font("Monospaced", Font.BOLD, 30));
 
-        String bounceText = "Thanks to all the developers, programmers, idea providers and everyone involved in the PS5 scene!  Menu UI by DriveRick, Modified by Viktorious, etaHEN fix by BenNox_XD. Viktorious ISO Version 22. Have fun!";
+        String bounceText = "Thanks to all the developers, programmers, idea providers and everyone involved in the PS5 scene!  Menu UI by DriveRick, Modified by Viktorious, etaHEN fix by BenNox_XD. Viktorious ISO Version 23. Have fun!";
         int bounceTextWidth = g2d.getFontMetrics().stringWidth(bounceText);
         int bounceY = (int)(Math.sin(scrollX * 0.03) * 6);
         int y = Config.getLoaderResolutionHeight() - 60;
