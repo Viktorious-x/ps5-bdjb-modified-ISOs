@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<movieObjectFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="movieobject.xsd">
+
+  <version>0200</version>
+  <movieObjects>
+    <movieObject mobjId="0">
+      <navigationCommands commandId="0">
+        <command>21810000 00000001 00000000</command>
+      </navigationCommands>
+      <terminalInfo>
+        <menuCallMask>false</menuCallMask>
+        <resumeIntentionFlag>false</resumeIntentionFlag>
+        <titleSearchMask>false</titleSearchMask>
+      </terminalInfo>
+    </movieObject>
+    <movieObject mobjId="1">
+      <navigationCommands commandId="0">
+        <command>21810000 00000001 00000000</command>
+      </navigationCommands>
+      <terminalInfo>
+        <menuCallMask>false</menuCallMask>
+        <resumeIntentionFlag>false</resumeIntentionFlag>
+        <titleSearchMask>false</titleSearchMask>
+      </terminalInfo>
+    </movieObject>
+  </movieObjects>
+  <extensionData/>
+  <paddingsN1>0</paddingsN1>
+  <paddingsN2>0</paddingsN2>
+</movieObjectFile>

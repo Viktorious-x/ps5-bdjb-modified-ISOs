@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/assembly/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assembly/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/bdjo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/grin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/grin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/id/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/index/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/movieobject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bdj-tools/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stubs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stubs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/byepervisor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/debugsettings/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/ftpserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/jailbreak/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/jar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/jarmain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/kerneldump/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/klogserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/samples/dumpclasspath/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/samples/dumpcurproc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/samples/listdirents/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/samples/minitennis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/samples/printsysprops/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/samples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/samples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/umtx/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/umtx/impl1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/umtx/impl2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/umtx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xploit/umtx/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

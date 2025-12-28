@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.ps5jb</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.ps5jb</groupId>
+    <artifactId>sdk</artifactId>
+    <packaging>jar</packaging>
+    <description>
+        Classes to simplify the native code execution.
+    </description>
+
+    <properties>
+        <bdjstack.dir>${project.basedir}/../lib</bdjstack.dir>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.ps5jb</groupId>
+            <artifactId>xlet</artifactId>
+            <version>${xlet.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <!-- When compiling main code of PS5 sdk, make sure to patch base JDK modules with BD-J classes in order to not use newer API, not available on PS5 runtime. -->
+                <!-- The code also does Unsafe manipulation so it's necessary to declare access to it. -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <executions>
+                    <!-- Unit tests are run on development machine, not on PS5. So the patching of modules is not necessary for unit test compilation. -->
+                    <!-- Note that IntelliJ is not able to distinguish the two when compiling the module. -->
+                    <execution>
+                        <id>default-testCompile</id>
+                        <phase>test-compile</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                        <configuration>
+                            <compilerArgs>
+                                <arg>--limit-modules</arg>
+                                <arg>java.base,java.desktop,java.rmi</arg>
+                                <arg>--add-exports</arg>
+                                <arg>java.base/jdk.internal.misc=ALL-UNNAMED</arg>
+                            </compilerArgs>
+                        </configuration>
+                    </execution>
+                </executions>
+                <configuration>
+                    <compilerArgs>
+                        <arg>--patch-module</arg>
+                        <arg>java.base=${bdjstack.dir}/pbp-base.jar</arg>
+                        <arg>--patch-module</arg>
+                        <arg>java.desktop=${bdjstack.dir}/pbp-desktop.jar</arg>
+                        <arg>--patch-module</arg>
+                        <arg>java.rmi=${bdjstack.dir}/pbp-rmi.jar</arg>
+                        <arg>--limit-modules</arg>
+                        <arg>java.base,java.desktop,java.rmi</arg>
+                        <arg>--add-exports</arg>
+                        <arg>java.base/jdk.internal.misc=ALL-UNNAMED</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+            <!-- Generate Javadoc for this project -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-javadoc</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>javadoc-no-fork</goal>
+                        </goals>
+                        <configuration>
+                            <additionalJOptions>
+                                <additionalJOption>--add-exports</additionalJOption>
+                                <additionalJOption>java.base/jdk.internal.misc=ALL-UNNAMED</additionalJOption>
+                            </additionalJOptions>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

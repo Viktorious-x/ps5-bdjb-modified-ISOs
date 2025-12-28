@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.ps5jb</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <description>Parent BOM for all the subprojects. Contains version definitions for all the plugins and common configuration.</description>
+
+    <properties>
+        <!-- PS5 uses JDK 11, compile for the same target -->
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+
+        <!-- Skip a bunch of default plugins that are not in use -->
+        <maven.site.skip>true</maven.site.skip>
+        <maven.site.deploy.skip>true</maven.site.deploy.skip>
+
+        <!-- All source files use UTF-8 encoding -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- This is where all the BD-J stack classes are going to be downloaded and referenced from -->
+        <bdjstack.dir>${project.basedir}/lib</bdjstack.dir>
+
+        <!-- Name of the Xlet class from "xlet" module that will be run by BD-J when the BD-R disk is played -->
+        <xlet.className>org.ps5jb.loader.LoaderXlet</xlet.className>
+
+        <!-- Path relative to AVCHD directory on disc where the loader will scan for JARs -->
+        <loader.payload.root>jar-payloads</loader.payload.root>
+
+        <!-- Do not use the same version as parent project for Xlet because it will be modified less frequently. We only want to burn new disc if Xlet changes -->
+        <xlet.version>4.1.1</xlet.version>
+    </properties>
+
+    <modules>
+        <module>bdj-tools</module>
+        <module>stubs</module>
+        <module>xlet</module>
+        <module>assembly</module>
+        <module>sdk</module>
+        <module>xploit</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.ps5jb</groupId>
+                <artifactId>bdj-api</artifactId>
+                <version>${project.version}</version>
+                <scope>system</scope>
+                <systemPath>${bdjstack.dir}/bdj.jar</systemPath>
+            </dependency>
+            <dependency>
+                <groupId>org.ps5jb</groupId>
+                <artifactId>javatv-api</artifactId>
+                <version>${project.version}</version>
+                <scope>system</scope>
+                <systemPath>${bdjstack.dir}/javatv.jar</systemPath>
+            </dependency>
+            <dependency>
+                <groupId>org.ps5jb</groupId>
+                <artifactId>gem-api</artifactId>
+                <version>${project.version}</version>
+                <scope>system</scope>
+                <systemPath>${bdjstack.dir}/gem.jar</systemPath>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>5.12.0</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-junit-jupiter</artifactId>
+                <version>5.16.0</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.13.0</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>3.4.0</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>3.7.1</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>3.8.0</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.3.1</version>
+                    <configuration>
+                        <propertiesEncoding>ISO-8859-1</propertiesEncoding>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.4.2</version>
+                    <configuration>
+                        <archive>
+                            <!-- Do not include META-INF/maven directory in JARs -->
+                            <addMavenDescriptor>false</addMavenDescriptor>
+                        </archive>
+                        <excludes>
+                            <!-- Do not include Maven-specific module param descriptor in JARs -->
+                            <exclude>META-INF/jpms.args</exclude>
+                        </excludes>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>3.10.0</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-antrun-plugin</artifactId>
+                    <version>3.1.0</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-shade-plugin</artifactId>
+                    <version>3.6.0</version>
+                    <configuration>
+                        <createDependencyReducedPom>false</createDependencyReducedPom>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.5.0</version>
+                    <configuration>
+                        <!--
+                        Various default PS5 JVM parameters for unit tests:
+                        - Don't use compressed memory Oops
+                        - Use serial GC
+                        - Use specific memory limits. Note that metaspace limit is 14M but this is too small to run within Maven
+                        -->
+                        <argLine>-XX:-UseCompressedOops -XX:+UseSerialGC -Xms16M -Xmx256M -Xss1M</argLine>
+                    </configuration>
+                    <executions>
+                        <!-- Move unit test goal to verify phase so it's not executed before packaging -->
+                        <execution>
+                            <id>default-test</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>test</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>3.4.1</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>versions-maven-plugin</artifactId>
+                    <version>2.17.1</version>
+                    <configuration>
+                        <generateBackupPoms>false</generateBackupPoms>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

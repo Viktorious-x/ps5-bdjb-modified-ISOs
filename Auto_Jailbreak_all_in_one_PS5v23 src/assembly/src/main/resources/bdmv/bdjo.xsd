@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bdjo" type="bdjo"/>
+
+  <xs:complexType name="bdjo">
+    <xs:all>
+      <xs:element name="appCacheInfo" type="appCacheInfo" minOccurs="0"/>
+      <xs:element name="applicationManagementTable" type="applicationManagementTable" minOccurs="0"/>
+      <xs:element name="fileAccessInfo" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Indicates path relative to the BD disc's root directory that applications in this BDJO can read directly from disc.       
+            A value of "." corresponds to the root directory, giving read file access to all files of the disc (or virtual        
+            package). This can be empty for applications that do not need files outside of their own JAR file.                    
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="keyInterestTable" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Integer representing bit mask corresponding to remote control keys that the applications in the BDJO want to control.
+            Key events for masked keys will be presented to the application rather than being consumed by the player and thus triggering
+            the associated user operation.
+            
+            This table is only effective when the title type of this BDJO's title is Interactive.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="tableOfAccessiblePlayLists" type="tableOfAccessiblePlayLists" minOccurs="0"/>
+      <xs:element name="terminalInfo" type="terminalInfo" minOccurs="0"/>
+      <xs:element name="version" type="version" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Version of the BDJO. V_0200 is recommended.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="appCacheInfo">
+    <xs:sequence>
+      <xs:element name="entries" type="appCacheEntry" nillable="true" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            JARs and/or directories entered here will be read into the player's 4MB application cache prior to execution.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="appCacheEntry">
+    <xs:all>
+      <xs:element name="language" type="xs:string" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="type" type="appCacheEntryType"/>
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="applicationManagementTable">
+    <xs:sequence>
+      <xs:element name="applications" type="appInfo" nillable="true" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="appInfo">
+    <xs:all>
+      <xs:element name="applicationDescriptor" type="applicationDescriptor" minOccurs="0"/>
+      <xs:element name="applicationId" type="xs:string" minOccurs="0"/>
+      <xs:element name="controlCode" type="controlCodeType" minOccurs="0"/>
+      <xs:element name="organizationId" type="xs:string" minOccurs="0"/>
+      <xs:element name="type" type="xs:string" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="applicationDescriptor">
+    <xs:sequence>
+      <xs:element name="baseDirectory" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Application base directory: usually the JAR file name.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="binding" type="binding" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Application binding: Title (un)bound, Disc (un)bound. An application ends when context changes if bound to that context.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="classpathExtension" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Additional class path to search for other classes ("/" = the base directory defined above).
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="iconFlags" type="xs:string" minOccurs="0"/>
+      <xs:element name="iconLocator" type="xs:string" minOccurs="0"/>
+      <xs:element name="initialClassName" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Fully qualified class name of the xlet class to load.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="names" type="appName" nillable="true" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Names provide human-readable names of the application in any number of different languages.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="parameters" type="xs:string" nillable="true" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Parameters to pass to the xlet; a list of string values the xlet can get from its context similar to command line
+            arguments to a desktop program.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="priority" type="xs:short">
+        <xs:annotation>
+          <xs:documentation>
+            Application priority - higher numbers represent higher priority, but it doesn't affect launch order. 
+            (It can affect the order in which Xlets are stopped or paused if there are insufficient player resources to continue all)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="profiles" type="appProfile" nillable="true" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element name="visibility" type="visibility" minOccurs="0" default="V_01">
+        <xs:annotation>
+          <xs:documentation>
+            Application visibility as defined by GEM. Should typically be "V_01".
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="appProfile">
+    <xs:all>
+      <xs:element name="majorVersion" type="xs:short"/>
+      <xs:element name="microVersion" type="xs:short"/>
+      <xs:element name="minorVersion" type="xs:short"/>
+      <xs:element name="profile" type="xs:int"/>
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="appName">
+    <xs:all>
+      <xs:element name="language" type="xs:string" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="tableOfAccessiblePlayLists">
+    <xs:sequence>
+      <xs:element name="accessToAllFlag" type="xs:boolean">
+        <xs:annotation>
+          <xs:documentation>
+            If true, allow access to all PlayLists. (When false, explicitly list PlayLists using playListFileNames)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="autostartFirstPlayListFlag" type="xs:boolean">
+        <xs:annotation>
+          <xs:documentation>
+            If true, autostart the first PlayList in the list of allowable PlayLists. (To subsequently change the PlayList 
+            programmatically, use a BDLocator including the PlayList element in a call to the title selection API)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="playListFileNames" type="xs:string" nillable="true" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            List of PlayLists to which applications under this BDJO may have access.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="terminalInfo">
+    <xs:all>
+      <xs:element name="defaultFontFile" type="xs:string" minOccurs="0" default="*****">
+        <xs:annotation>
+          <xs:documentation>
+            Default font for applications: "*****" or file name base, as it appears in the AUXDATA directory.
+            (e.g. "10000" for the font file AUXDATA/10000.otf)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="initialHaviConfig" type="haviDeviceConfig" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Sets the initial screen device configuration.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="menuCallMask" type="xs:boolean">
+        <xs:annotation>
+          <xs:documentation>
+            Indicates whether a Top Menu call is prohibited while this BDJO is active. (True = prohibited)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="titleSearchMask" type="xs:boolean">
+        <xs:annotation>
+          <xs:documentation>
+            Indicates whether the Title Search operation is prohibited while this BDJO is active. (True = prohibited)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="mouseSupported" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Indicates if the Mouse Interest flag (below) should be evaluated.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="mouseInterest" type="xs:boolean" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Indicates if the title is interested in receiving mouse events
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="initialOutputMode" type="outputMode" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            Indicates initial 2D/3D output mode.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="initialFrameRate" type="frameRate" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+            This hints to the player what frame rate HDMI negotiation should occur at when the BDJO is started.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+  
+  <xs:simpleType name="appCacheEntryType">
+    <xs:restriction base="xs:byte">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation>
+            JAR file entry.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation>
+            Directory entry.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="binding">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="TITLE_BOUND_DISC_BOUND"/>
+      <xs:enumeration value="RESERVED"/>
+      <xs:enumeration value="TITLE_UNBOUND_DISC_BOUND"/>
+      <xs:enumeration value="TITLE_UNBOUND_DISC_UNBOUND"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="controlCodeType">
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation>
+            Launched automatically upon entry to title (if not already running).
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation>
+            Present but not auto-launched.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="visibility">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="V_11"/>
+      <xs:enumeration value="V_10"/>
+      <xs:enumeration value="V_01"/>
+      <xs:enumeration value="V_00"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="haviDeviceConfig">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="QHD_960_540"/>
+      <xs:enumeration value="SD_60HZ_720_480"/>
+      <xs:enumeration value="SD_50HZ_720_576"/>
+      <xs:enumeration value="SD"/>
+      <xs:enumeration value="HD_1280_720"/>
+      <xs:enumeration value="HD_1920_1080"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="version">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="V_0200"/>
+      <xs:enumeration value="V_0100"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="outputMode">
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="0">
+        <xs:annotation>
+          <xs:documentation>
+            2D output mode.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation>
+            Previous output mode is retained.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation>
+            3D (Stereoscopic) output mode preferred.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="frameRate">
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation>
+            23.976
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation>
+            24
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation>
+            25
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation>
+            29.97
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation>
+            59.94
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+

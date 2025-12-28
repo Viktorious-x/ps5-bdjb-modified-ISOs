@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.ps5jb</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>org.ps5jb</groupId>
+    <artifactId>xlet</artifactId>
+    <version>${xlet.version}</version>
+    <packaging>jar</packaging>
+    <description>
+        BD-J Xlet whose purpose is to disable PS5 security manager and start a network listener that expects a JAR file to be sent to it for execution.
+        The JAR file should have the Main-Class manifest attribute and it will be used to run the "main" method after the JAR is loaded.
+    </description>
+
+    <properties>
+        <bdjstack.dir>${project.basedir}/../lib</bdjstack.dir>
+
+        <!-- Various Xlet configuration properties -->
+        <loader.port>9025</loader.port>
+        <loader.resolution.width>1920</loader.resolution.width>
+        <loader.resolution.height>1080</loader.resolution.height>
+        <loader.logger.host></loader.logger.host>
+        <loader.logger.port>18194</loader.logger.port>
+        <loader.logger.timeout>5000</loader.logger.timeout>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.ps5jb</groupId>
+            <artifactId>bdj-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ps5jb</groupId>
+            <artifactId>javatv-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ps5jb</groupId>
+            <artifactId>gem-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ps5jb</groupId>
+            <artifactId>stubs</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <!-- Resources include config with values replaced from Maven properties. Enable filtering to make sure that the final file has proper values -->
+        <resources>
+            <resource>
+                <directory>${project.build.sourceDirectory}/../resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
+        <plugins>
+            <!-- When compiling, make sure to patch base JDK modules with BD-J classes in order to not use newer API, not available on PS5 runtime -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <compilerArgs>
+                        <arg>--patch-module</arg>
+                        <arg>java.base=${bdjstack.dir}/pbp-base.jar</arg>
+                        <arg>--patch-module</arg>
+                        <arg>java.desktop=${bdjstack.dir}/pbp-desktop.jar</arg>
+                        <arg>--patch-module</arg>
+                        <arg>java.rmi=${bdjstack.dir}/pbp-rmi.jar</arg>
+                        <arg>--limit-modules</arg>
+                        <arg>java.base,java.desktop,java.rmi</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+            <!-- When JAR is packaged, execute BDSigner utility to sign it. Otherwise, BD-J will not run it -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>exec-bdsigner</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>net.java.bd.tools.security.BDSigner</mainClass>
+                            <includeProjectDependencies>false</includeProjectDependencies>
+                            <includePluginDependencies>true</includePluginDependencies>
+                            <arguments>
+                                <argument>${project.build.directory}/${project.build.finalName}.${project.packaging}</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.java.bd.tools</groupId>
+                        <artifactId>security</artifactId>
+                        <version>${project.parent.version}</version>
+                        <scope>runtime</scope>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <!-- Add version information to the JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-jar</id>
+                        <configuration>
+                            <archive>
+                                <manifest>
+                                    <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                                </manifest>
+                            </archive>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Generate Javadoc for this project -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-javadoc</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>javadoc</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
