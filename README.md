@@ -203,6 +203,8 @@ airpsx.jar - Remote management software for Jailbroken PlayStation 5, [airpsx.el
 ps5debug.jar - Debugger for the PlayStation 5, included in etahen, [ps5debug.elf](https://github.com/GoldHEN/ps5debug) turned into a JAR (by [ctn123](https://github.com/ctn123) and [SiSTRo](https://github.com/SiSTR0)) (requires Elf Loader running)
 <br />
 
+kstuff.jar - [kstuff.elf](https://github.com/EchoStretch/kstuff)
+
 [CloseDisk.jar](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader/tree/main/ClosePlayer) (Closes Disk Player by [BenNox_XD](https://github.com/BenNoxXD)) (requires Elf Loader running)
 <br />
 <br />
