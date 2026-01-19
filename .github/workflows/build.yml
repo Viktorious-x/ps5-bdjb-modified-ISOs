@@ -1,0 +1,95 @@
+name: Build PS5 Auto Jailbreak ISO
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "Auto_Jailbreak_all_in_one_PS5v23/**"
+
+concurrency:
+  group: ps5-auto-jb-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    env:
+      DISC_LABEL: AUTO_JB_PS5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            build-essential \
+            libbsd-dev \
+            pkg-config \
+            git \
+            rsync
+
+      - name: Clone flatz makefs_termux
+        run: |
+          git clone --recurse-submodules https://github.com/flatz/makefs_termux.git
+
+      - name: Build makefs (flatz)
+        run: |
+          cd makefs_termux
+          make -f Makefile.linux
+          make -f Makefile.linux install DESTDIR=$PWD/host
+
+      - name: Prepare disc directory (FULL + ORDERED MENU)
+        run: |
+          rm -rf discdir
+          mkdir discdir
+
+          # Copy entire tree except menu dir
+          rsync -a \
+            --exclude='jar-payloads' \
+            Auto_Jailbreak_all_in_one_PS5v23/ \
+            discdir/
+
+          # Recreate menu dir
+          mkdir discdir/jar-payloads
+
+          # Forced menu order
+          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/1.ALL_IN_ONE-etaHEN.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/2.NormalJailbreak-etaHEN.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/3.ALL_IN_ONE-NOetaHEN.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/4.NormalJailbreak-NOetaHEN.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/5.NormalJailbreak-kstuff.pipe discdir/jar-payloads/
+
+          # Copy remaining payloads after menu
+          rsync -a \
+            --exclude='1.ALL_IN_ONE-etaHEN.pipe' \
+            --exclude='2.NormalJailbreak-etaHEN.pipe' \
+            --exclude='3.ALL_IN_ONE-NOetaHEN.pipe' \
+            --exclude='4.NormalJailbreak-NOetaHEN.pipe' \
+            --exclude='5.NormalJailbreak-kstuff.pipe' \
+            Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/ \
+            discdir/jar-payloads/
+
+          echo "Final menu order:"
+          ls -U discdir/jar-payloads
+
+      - name: Build PS5 UDF ISO
+        run: |
+          MAKEFS="$PWD/makefs_termux/host/bin/makefs"
+
+          rm -f Auto_Jailbreak_PS5v23.iso
+
+          "$MAKEFS" \
+            -m 32m \
+            -t udf \
+            -o T=bdre,v=2.50,L=${DISC_LABEL} \
+            Auto_Jailbreak_PS5v23.iso \
+            discdir
+
+      - name: Upload ISO artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Auto_Jailbreak_PS5v23_ISO
+          path: Auto_Jailbreak_PS5v23.iso
