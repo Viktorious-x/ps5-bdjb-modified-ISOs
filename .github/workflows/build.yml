@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "Auto_Jailbreak_all_in_one_PS5v23/**"
+      - "Auto_Jailbreak_all_in_one_PS5v24/**"
 
 concurrency:
   group: ps5-auto-jb-${{ github.ref }}
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-22.04
 
     env:
-      DISC_LABEL: AUTO_JB_PS5
+      DISC_LABEL: AUTO_JB_AIO_PS5-v24
 
     steps:
       - name: Checkout repository
@@ -49,27 +49,29 @@ jobs:
           # Copy entire tree except menu dir
           rsync -a \
             --exclude='jar-payloads' \
-            Auto_Jailbreak_all_in_one_PS5v23/ \
+            Auto_Jailbreak_all_in_one_PS5v24/ \
             discdir/
 
           # Recreate menu dir
           mkdir discdir/jar-payloads
 
           # Forced menu order
-          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/1.ALL_IN_ONE-etaHEN.pipe discdir/jar-payloads/
-          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/2.NormalJailbreak-etaHEN.pipe discdir/jar-payloads/
-          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/3.ALL_IN_ONE-NOetaHEN.pipe discdir/jar-payloads/
-          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/4.NormalJailbreak-NOetaHEN.pipe discdir/jar-payloads/
-          cp Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/5.NormalJailbreak-kstuff.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v24/jar-payloads/1.ALL_IN_ONE-etaHEN.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v24/jar-payloads/2.ALL_IN_ONE-kstuff.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v24/jar-payloads/3.ALL_IN_ONE-NOetaHEN.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v24/jar-payloads/4.NormalJailbreak-etaHEN.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v24/jar-payloads/5.NormalJailbreak-kstuff.pipe-NOetaHEN.pipe discdir/jar-payloads/
+          cp Auto_Jailbreak_all_in_one_PS5v24/jar-payloads/6.NormalJailbreak-NOetaHEN.pipe discdir/jar-payloads/
 
           # Copy remaining payloads after menu
           rsync -a \
             --exclude='1.ALL_IN_ONE-etaHEN.pipe' \
-            --exclude='2.NormalJailbreak-etaHEN.pipe' \
+            --exclude='2.ALL_IN_ONE-kstuff.pipe' \
             --exclude='3.ALL_IN_ONE-NOetaHEN.pipe' \
-            --exclude='4.NormalJailbreak-NOetaHEN.pipe' \
+            --exclude='4.NormalJailbreak-etaHEN.pipe' \
             --exclude='5.NormalJailbreak-kstuff.pipe' \
-            Auto_Jailbreak_all_in_one_PS5v23/jar-payloads/ \
+            --exclude='6.NormalJailbreak-NOetaHEN.pipe' \
+            Auto_Jailbreak_all_in_one_PS5v24/jar-payloads/ \
             discdir/jar-payloads/
 
           echo "Final menu order:"
@@ -79,17 +81,17 @@ jobs:
         run: |
           MAKEFS="$PWD/makefs_termux/host/bin/makefs"
 
-          rm -f Auto_Jailbreak_PS5v23.iso
+          rm -f Auto_Jailbreak_all_in_one_PS5v24.iso
 
           "$MAKEFS" \
             -m 32m \
             -t udf \
             -o T=bdre,v=2.50,L=${DISC_LABEL} \
-            Auto_Jailbreak_PS5v23.iso \
+            Auto_Jailbreak_all_in_one_PS5v24.iso \
             discdir
 
       - name: Upload ISO artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Auto_Jailbreak_PS5v23_ISO
-          path: Auto_Jailbreak_PS5v23.iso
+          name: Auto_Jailbreak_all_in_one_PS5v24_ISO
+          path: Auto_Jailbreak_all_in_one_PS5v24.iso

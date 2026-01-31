@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="index" type="index"/>
+
+  <xs:complexType name="index">
+    <xs:sequence>
+      <xs:element name="appInfo" type="appInfoBDMV" minOccurs="0"/>
+      <xs:element name="extensionData" type="extensionData" minOccurs="0"/>
+      <xs:element name="indexes" type="indexes" minOccurs="0"/>
+      <xs:element name="paddingN1" type="xs:int"/>
+      <xs:element name="paddingN1Data" type="xs:short" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="paddingN2" type="xs:int"/>
+      <xs:element name="paddingN2Data" type="xs:short" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="paddingN3" type="xs:int"/>
+      <xs:element name="paddingN3Data" type="xs:short" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="version" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="appInfoBDMV">
+    <xs:sequence>
+      <xs:element name="frameRate" type="frameRate" minOccurs="0"/>
+      <xs:element name="initialOutputModePreference" type="initialOutputModePreferenceType" minOccurs="0"/>
+      <xs:element name="SSContentExistFlag" type="xs:boolean"/>
+      <xs:element name="videoFormat" type="videoFormat" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="extensionData">
+    <xs:sequence>
+      <xs:element name="data" type="xs:short" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="indexes">
+    <xs:sequence>
+      <xs:element name="firstPlayback" type="firstPlayback" minOccurs="0"/>
+      <xs:element name="topMenu" type="topMenu" minOccurs="0"/>
+      <xs:element name="titles" type="titles" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="firstPlayback">
+    <xs:sequence>
+      <xs:element name="firstPlaybackObject" type="indexObject" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="indexObject" abstract="true">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="HDMVIndexObject">
+    <xs:complexContent>
+      <xs:extension base="indexObject">
+        <xs:sequence>
+          <xs:element name="HDMVName" type="xs:string"/>
+          <xs:element name="playbackType" type="HDMVPlaybackType"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:simpleType name="HDMVPlaybackType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="HDMVPlayback_MOVIE"/>
+      <xs:enumeration value="HDMVPlayback_INTERACTIVE"/>
+      <xs:enumeration value="HDMVPlayback_RESERVED"/>
+      <xs:enumeration value="HDMVPlayback_RESERVED2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="BDJIndexObject">
+    <xs:complexContent>
+      <xs:extension base="indexObject">
+        <xs:sequence>
+          <xs:element name="BDJOName" type="xs:string"/>
+          <xs:element name="playbackType" type="BDJPlaybackType"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:simpleType name="BDJPlaybackType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BDJPlayback_RESERVED"/>
+      <xs:enumeration value="BDJPlayback_RESERVED2"/>
+      <xs:enumeration value="BDJPlayback_MOVIE"/>
+      <xs:enumeration value="BDJPlayback_INTERACTIVE"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="topMenu">
+    <xs:sequence>
+      <xs:element name="topMenuObject" type="indexObject" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="titles">
+    <xs:sequence>
+      <xs:element name="title" type="title" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="title">
+    <xs:sequence>
+      <xs:element name="indexObject" type="indexObject" minOccurs="0"/>
+      <xs:element name="titleAccessType" type="titleAccessType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="frameRate">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="IGNORED"/>
+      <xs:enumeration value="Hz_24000_1001"/>
+      <xs:enumeration value="Hz_24"/>
+      <xs:enumeration value="Hz_25"/>
+      <xs:enumeration value="Hz_30000_1001"/>
+      <xs:enumeration value="RESERVED_5"/>
+      <xs:enumeration value="Hz_50"/>
+      <xs:enumeration value="Hz_60000_1001"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="initialOutputModePreferenceType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Mode2D"/>
+      <xs:enumeration value="Mode3D"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="videoFormat">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="IGNORED"/>
+      <xs:enumeration value="VIDEO_480i"/>
+      <xs:enumeration value="VIDEO_576i"/>
+      <xs:enumeration value="VIDEO_480p"/>
+      <xs:enumeration value="VIDEO_1080i"/>
+      <xs:enumeration value="VIDEO_720p"/>
+      <xs:enumeration value="VIDEO_1080p"/>
+      <xs:enumeration value="VIDEO_576p"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="titleAccessType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="V_00"/>
+      <xs:enumeration value="V_01"/>
+      <xs:enumeration value="V_10"/>
+      <xs:enumeration value="V_11"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+
