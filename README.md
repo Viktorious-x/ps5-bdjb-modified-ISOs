@@ -2,7 +2,7 @@
 <br />
 <br />
 
-## Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.xx-7.xx (up to 12.00 with BDJ-UNPATCH) (Poopsploit for full jailbreak not ported yet)
+## Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.xx-7.xx (up to 12.00 with BDJ-UNPATCH)
 
 <br />
 <br />
