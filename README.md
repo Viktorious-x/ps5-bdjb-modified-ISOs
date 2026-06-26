@@ -2,11 +2,10 @@
 <br />
 <br />
 
-## Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.xx-7.xx
+## Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.xx-7.xx (up to 12.00 with BDJ-UNPATCH) (Poopsploit for full jailbreak not ported yet)
 
 <br />
 <br />
-OFFLINE ISO NOW - NO NEED FOR NETWORK CONNECTION ANYMORE BABYYYY
 <br />
 <br />
 i am on 7.61 so thats the firmware version i test on
@@ -128,7 +127,7 @@ It is also supported for etaHEN and kstuff to be in different locations. For exa
 <br />
 Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier and faster and automated that way.
 <br />
-theres 4 pipelines in total, I will divide it into 3 categories: ALL-IN-ONE, NormalJailbreak, NOetaHEN
+theres 6 pipelines in total, I will divide it into 4 categories: ALL-IN-ONE, NormalJailbreak, NOetaHEN, kstuff
 <br />
 <br />
 
@@ -139,7 +138,7 @@ ________________________________________________________________________________
 These pipelines have everything you would want
 <br />
 
-#### What it runs: UMTX - ELF LOADER- WEB SERVER - ETAHEN (kstuff included) 
+#### What it runs: UMTX - ELF LOADER- WEB SERVER - BACKPORK -  SHADOWMOUNT - ETAHEN (kstuff included) 
 
 __________________________________________________________________________________________________________________________________________________________________________________
 ### Jailbreak-ONLY pipelines
@@ -149,6 +148,15 @@ These pipelines are more simplified and has the minimal you need as fast as poss
 <br />
 
 #### What it runs: UMTX - ELF LOADER - ETAHEN (kstuff included) 
+
+__________________________________________________________________________________________________________________________________________________________________________________
+### kstuff pipelines
+
+<br />
+All-In-One and Jailbreak-ONLY pipelines with kstyff being loaded instead of etaHEN
+<br />
+
+#### What it runs: Whatever All-In-One and Jailbreak-ONLY pipelines run, but with kstuff instead of etaHEN.
 
 __________________________________________________________________________________________________________________________________________________________________________________
 ### NOetaHEN pipelines
@@ -161,9 +169,6 @@ ________________________________________________________________________________
 #### These pipelines are the same versions of the ones before, but without the etaHEN in the end, so theres no need for timing closing disk player so you wouldnt get kp.
 #### What it runs: Everything until etahen.
 <br />
-
-w̶i̶t̶h̶ ̶t̶h̶i̶s̶ ̶y̶o̶u̶ ̶c̶a̶n̶ ̶l̶o̶a̶d̶ ̶e̶t̶a̶h̶e̶n̶ ̶e̶i̶t̶h̶e̶r̶ ̶v̶i̶a̶ ̶i̶n̶j̶e̶c̶t̶i̶n̶g̶ ̶i̶t̶ ̶o̶r̶ ̶u̶s̶i̶n̶g̶ ̶t̶h̶i̶s̶ ̶w̶e̶b̶s̶r̶v̶ ̶a̶p̶p̶:̶ ̶h̶t̶t̶p̶s̶:̶/̶/̶g̶i̶t̶h̶u̶b̶.̶c̶o̶m̶/̶c̶y̶3̶3̶h̶c̶/̶p̶s̶5̶-̶p̶a̶y̶l̶o̶a̶d̶-̶l̶o̶a̶d̶e̶r̶ ̶
-̶a̶n̶d̶ ̶s̶i̶n̶c̶e̶ ̶w̶e̶b̶s̶r̶v̶ ̶i̶s̶ ̶i̶n̶c̶l̶u̶d̶e̶d̶ ̶i̶n̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶,̶ ̶i̶f̶ ̶y̶o̶u̶ ̶w̶a̶n̶n̶a̶ ̶d̶o̶ ̶t̶h̶i̶s̶ ̶m̶e̶t̶h̶o̶d̶ ̶u̶s̶e̶ ̶t̶h̶e̶ ̶A̶L̶L̶-̶I̶N̶-̶O̶N̶E̶-̶N̶O̶e̶t̶a̶H̶E̶N̶ ̶p̶i̶p̶e̶l̶i̶n̶e̶!̶
 
 __________________________________________________________________________________________________________________________________________________________________________________
 <br />
@@ -183,18 +188,19 @@ umtx1.jar (modified umtx1 jar by [me](https://github.com/Viktorious-x) to be sig
 umtx2.jar (slower and less stable than umtx1, highly dont reccomend this)
 <br />
 
-jailbreak.jar (required to load this payload to be able to load payloads from USB loader) 
+jailbreak.jar (required to load this payload to be able to load payloads from USB loader)
+<br />
 
-elfloader.jar ([modified elf loader jar](https://github.com/Viktorious-x/bdjb-elfloader) by [me](https://github.com/Viktorious-x) that has updated [elfloader.elf](https://github.com/ps5-payload-dev/elfldr))
+elfloader.jar ([modified elf loader jar payload](https://github.com/Viktorious-x/bdjb-elfloader) by that has updated [elfloader.elf](https://github.com/ps5-payload-dev/elfldr))
 <br />
 
 etahen.jar - [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) that would fix [etaHEN](https://github.com/etaHEN/etaHEN) on bdj crashing) (requires Elf Loader running)
 <br />
 
-websrv.jar - [websrv.elf](https://github.com/ps5-payload-dev/websrv/) turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
+websrv.jar - [websrv.elf](https://github.com/ps5-payload-dev/websrv/) by [John Törnblom aka SB](https://github.com/john-tornblom) (requires Elf Loader running)
 <br />
 
-ftpsrv.jar - ftp server, included in etahen, [ftpsrv.elf](https://github.com/ps5-payload-dev/ftpsrv/) turned into a JAR (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
+ftpsrv.jar - ftp server, included in etahen, [ftpsrv.elf](https://github.com/ps5-payload-dev/ftpsrv/) (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
 <br />
 
 airpsx.jar - Remote management software for Jailbroken PlayStation 5, [airpsx.elf](https://github.com/barisyild/airpsx) turned into a JAR (by [barisyild](https://github.com/barisyild)) (requires Elf Loader running)
@@ -203,7 +209,29 @@ airpsx.jar - Remote management software for Jailbroken PlayStation 5, [airpsx.el
 ps5debug.jar - Debugger for the PlayStation 5, included in etahen, [ps5debug.elf](https://github.com/GoldHEN/ps5debug) turned into a JAR (by [ctn123](https://github.com/ctn123) and [SiSTRo](https://github.com/SiSTR0)) (requires Elf Loader running)
 <br />
 
-kstuff.jar - [kstuff.elf](https://github.com/EchoStretch/kstuff)
+kstuff.jar - autocloses Disc Player, then runs [kstuff](https://github.com/EchoStretch/kstuff) (requires Elf Loader running)
+<br />
+
+shadowmount.jar - [ShadowMount](https://ko-fi.com/s/42233d1d5a) by [VoidWhisper](https://ko-fi.com/B0B11RW1NE/shop) (requires Elf Loader running)
+<br />
+
+backpork.jar - [BackPork](https://github.com/BestPig/BackPork) by [BestPig](https://github.com/BestPig) (requires Elf Loader running)
+<br />
+
+np-fake-signin.jar - [np-fake-signin](https://github.com/earthonion/np-fake-signin) by [earthonion](https://github.com/earthonion) (requires Elf Loader running)
+<br />
+
+klogsrv.jar - [klogsrv](https://github.com/ps5-payload-dev/klogsrv) by [John Törnblom aka SB](https://github.com/john-tornblom)
+<br />
+
+gdbsrv.jar - [gdbsrv](https://github.com/ps5-payload-dev/gdbsrv) by [John Törnblom aka SB](https://github.com/john-tornblom)
+<br />
+
+shsrv.jar - [shsrv](https://github.com/ps5-payload-dev/shsrv) by [John Törnblom aka SB](https://github.com/john-tornblom)
+<br />
+
+
+
 
 [CloseDisk.jar](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader/tree/main/ClosePlayer) (Closes Disk Player by [BenNox_XD](https://github.com/BenNoxXD)) (requires Elf Loader running)
 <br />
@@ -302,10 +330,13 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 [iakdev](https://github.com/iakdev) for USB loader and Pipeline runner ([here](https://github.com/iakdev/ps5-jar-loader))
 <br />
 
-[John Törnblom](https://github.com/john-tornblom) (aka SB) and all the other Contributors for [websrv](https://github.com/ps5-payload-dev/websrv/) and [ftpsrv](https://github.com/ps5-payload-dev/ftpsrv)
+[John Törnblom](https://github.com/john-tornblom) (aka SB) and all the other Contributors for [PS5SDK](https://github.com/PS5Dev/PS5SDK), [websrv](https://github.com/ps5-payload-dev/websrv/), [ftpsrv](https://github.com/ps5-payload-dev/ftpsrv), [gdbsrv](https://github.com/ps5-payload-dev/gdbsrv), [klogsrv](https://github.com/ps5-payload-dev/klogsrv) and [shsrv](https://github.com/ps5-payload-dev/shsrv)
 <br />
 
 [CryoNumb](https://github.com/cryonumb/) for [BD-J Elf Loader](https://github.com/cryonumb/elfloader)
+<br />
+
+############# for poops (??!?!?!?!?) (01100011 01101111 01101101 01101001 01101110 01100111 00100000 01110011 00110000 00110000 01101110)
 <br />
 
 [barisyild](https://github.com/barisyild/) for [airpsx](https://github.com/barisyild/airpsx)
@@ -315,6 +346,15 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 <br />
 
 [DriveRick](https://github.com/DriveRick) for [the Original Modded Menu for the Ps5 Jar Loader](https://github.com/DriveRick/PS5-ToolDisc) and help regarding this project ([ko-fi](https://ko-fi.com/firlefanz))
+<br />
+
+[BestPig](https://github.com/BestPig) for [BackPork](https://github.com/BestPig/BackPork)
+<br />
+
+[VoidWhisper](https://ko-fi.com/B0B11RW1NE/shop) for [ShadowMount](https://ko-fi.com/s/42233d1d5a) and [VoidShell](https://ko-fi.com/s/99aac5c463)
+<br />
+
+[EarthOnion](https://github.com/earthonion/) for [np-fake-signin](https://github.com/earthonion/np-fake-signin)
 <br />
 
 [Viktorious (Me) ](https://github.com/Viktorious-x) and a Anonymous developer (for the help with figuring it out at first) for modified umtx1.jar that is significantly faster and more stable than the original umtx1.jar ([ko-fi](https://ko-fi.com/viktorious))
