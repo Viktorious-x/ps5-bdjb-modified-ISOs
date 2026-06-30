@@ -8,7 +8,7 @@
 <br />
 <br />
 <br />
-i am on 7.61 so thats the firmware version i test on
+i am on 7.61 and 10.00 so those are the firmware versions i test on
 <br />
 <br />
 Contact me on discord: Viktorious_x for feedback
@@ -19,7 +19,7 @@ Contact me on discord: Viktorious_x for feedback
 ### If you would like to support what I do, here is my donation page:
 <br />
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/viktorious)
+[![ko-fi](https://github.com/CostasAK/react-kofi-button/blob/main/screenshots/default_preset.gif?raw=true)](https://ko-fi.com/viktorious)
 
 <br />
 
@@ -37,7 +37,7 @@ My latest ISO betas are available on my [ko-fi shop](https://ko-fi.com/viktoriou
 My latest ISO beta: [v20BETAv2](https://ko-fi.com/s/ce844a3276) (OUTDATED) (MORE BETAS SOON)
 <br /> 
 
-These are outdated, I havent't done beta testing for the past 2 versions
+These are outdated, I havent't done beta testing for the past 6 versions
 <br /> 
 <br /> 
 
@@ -185,9 +185,6 @@ ________________________________________________________________________________
 umtx1.jar (modified umtx1 jar by [me](https://github.com/Viktorious-x) to be significantly faster)
 <br />
 
-umtx2.jar (slower and less stable than umtx1, highly dont reccomend this)
-<br />
-
 jailbreak.jar (required to load this payload to be able to load payloads from USB loader)
 <br />
 
@@ -321,6 +318,8 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 [Hammer-83](https://github.com/hammer-83) and all the other Contributors ([here](https://github.com/hammer-83/ps5-jar-loader/blob/main/README.md#credits)) for the Original [Ps5 Jar Loader](https://github.com/hammer-83/ps5-jar-loader) project
 <br />
 
+[TheFlow](https://github.com/theofficialflow) for many contirbutions to the Ps5 Scene, including multiple exploits and [Ps5 linux](https://github.com/ps5-linux/ps5-linux-loader)
+
 [Echostretch](https://github.com/EchoStretch) and all the other Contributors for [kstuff](https://github.com/EchoStretch/kstuff) on all firmwares that support BD-JB ([ko-fi](https://ko-fi.com/echostretch/))
 <br />
 
@@ -336,7 +335,7 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 [CryoNumb](https://github.com/cryonumb/) for [BD-J Elf Loader](https://github.com/cryonumb/elfloader)
 <br />
 
-############# for poops (??!?!?!?!?) (01100011 01101111 01101101 01101001 01101110 01100111 00100000 01110011 00110000 00110000 01101110)
+[Jaime](https://x.com/Jaime_Cyber/) for the poopsploit port, for hammer83s BDJB API
 <br />
 
 [barisyild](https://github.com/barisyild/) for [airpsx](https://github.com/barisyild/airpsx)
