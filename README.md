@@ -31,7 +31,7 @@ Thanks!
 <br /> 
 
 ## Beta ISO versions:
-My latest ISO betas are available on my [ko-fi shop](https://ko-fi.com/viktorious/shop) for 0€+
+Some of my ISO betas are available on my [ko-fi](https://ko-fi.com/viktorious/shop)
 <br /> 
 
 My latest ISO beta: [v20BETAv2](https://ko-fi.com/s/ce844a3276) (OUTDATED) (MORE BETAS SOON)
