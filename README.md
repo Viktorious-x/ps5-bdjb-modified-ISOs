@@ -8,7 +8,7 @@
 <br />
 <br />
 <br />
-i am on 7.61 and 10.00 so those are the firmware versions i test on
+i am on 7.61, 10.00 and 11.40 so those are the firmware versions i test on
 <br />
 <br />
 Contact me on discord: Viktorious_x for feedback
@@ -87,7 +87,7 @@ download source code zip instead of iso if you wanna use this method!
 <br />
 <br />
 
-## Etahen configs & other stuff
+## etaHEN configs & other stuff
 <br />
 <br />
 Etahen is loaded from the disc normally, but if you dont want to update iso to update etahen you can either have etaHEN.bin on your usb ROOT formatted in exfat or in your data folder on your ps5.
@@ -125,9 +125,9 @@ It is also supported for etaHEN and kstuff to be in different locations. For exa
 ## Explanation of what you can do with this ISO
 
 <br />
-Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier and faster and automated that way.
+Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier, faster and more automated that way.
 <br />
-theres 6 pipelines in total, I will divide it into 4 categories: ALL-IN-ONE, NormalJailbreak, NOetaHEN, kstuff
+there are 6 pipelines in total, I will divide it into 6 categories: ALL-IN-ONE, NormalJailbreak, etahen, kstuff, elf-arsenal and linux (poopsploit in the future)
 <br />
 <br />
 
@@ -228,6 +228,9 @@ backpork.jar - [BackPork](https://github.com/BestPig/BackPork) by [BestPig](http
 np-fake-signin.jar - [np-fake-signin](https://github.com/earthonion/np-fake-signin) by [earthonion](https://github.com/earthonion) (requires Elf Loader running)
 <br />
 
+ghostcontrol.jar - [GhostControl](https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher) by [StonedModder](https://github.com/StonedModder)
+<br />
+
 klogsrv.jar - [klogsrv](https://github.com/ps5-payload-dev/klogsrv) by [John Törnblom aka SB](https://github.com/john-tornblom) (requires Elf Loader running)
 <br />
 
@@ -271,13 +274,15 @@ ________________________________________________________________________________
 [Michael Crump](https://www.youtube.com/@mbcrump): [video overview](https://www.youtube.com/watch?v=bmr3Ybz8olU) (v19)
 <br />
 
-[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE) (v8) , [video overview](https://www.youtube.com/watch?v=6plH2ADkZi0&t=486s) (v19) 
+[Modded Warfare](https://www.youtube.com/@MODDEDWARFARE): [video tutorial](https://www.youtube.com/watch?v=r6BAxgGJxcE) (v8) , [video overview](https://www.youtube.com/watch?v=lAAQJOywD-8&t=678s) (v26) 
 <br />
 <br />
 Modded Warfare's tutorial about my iso is outdatded, but still useful!
 <br />
 <br />
 
+[Viktorious](https://www.youtube.com/@viktor7628) (oh wait that's me :) ): [Linux with Viktorious v26 overview video](https://www.youtube.com/watch?v=wecJHEraKaU (v26)
+<br />
 
 [Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=UqUQXR0NEAQ) (v20)
 <br />
@@ -342,11 +347,12 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 <br />
 
 [TheFlow](https://github.com/theofficialflow) for many contirbutions to the Ps5 Scene, including multiple exploits and [Ps5 linux](https://github.com/ps5-linux/ps5-linux-loader)
-
-[Echostretch](https://github.com/EchoStretch) and all the other Contributors for [kstuff](https://github.com/EchoStretch/kstuff) on all firmwares that support BD-JB ([ko-fi](https://ko-fi.com/echostretch/))
 <br />
 
-[LightningMods](https://github.com/LightningMods) and all the other Contributors ([here](https://github.com/etaHEN/etaHEN?tab=readme-ov-file#contributors)) for [etaHEN](https://github.com/etaHEN/etaHEN) ([ko-fi](https://ko-fi.com/lightningmods))
+[Echostretch](https://github.com/EchoStretch) and all the other Contributors for [kstuff](https://github.com/EchoStretch/kstuff) ([ko-fi](https://ko-fi.com/echostretch/))
+<br />
+
+[LightningMods](https://github.com/LightningMods) and all the other Contributors ([here](https://github.com/etaHEN/etaHEN?tab=readme-ov-file#contributors)) for [etaHEN](https://github.com/etaHEN/etaHEN) ([ko-fi](https://ko-fi.com/lightningmods)) and [Itemzflow](https://pkg-zone.com/details/ITEM00001)
 <br />
 
 [iakdev](https://github.com/iakdev) for USB loader and Pipeline runner ([here](https://github.com/iakdev/ps5-jar-loader))
@@ -368,6 +374,12 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 <br />
 
 [DriveRick](https://github.com/DriveRick) for [the Original Modded Menu for the Ps5 Jar Loader](https://github.com/DriveRick/PS5-ToolDisc) and help regarding this project ([ko-fi](https://ko-fi.com/firlefanz))
+<br />
+
+[Sonic-Iso](https://git.etawen.dev/soniciso) for [elf-arsenal](https://git.etawen.dev/soniciso/elf-arsenal) and all his other cool projects
+<br />
+
+[StonedModder](https://github.com/StonedModder) for [GhostControl](https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher)
 <br />
 
 [BestPig](https://github.com/BestPig) for [BackPork](https://github.com/BestPig/BackPork)
