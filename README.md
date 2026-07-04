@@ -153,22 +153,29 @@ ________________________________________________________________________________
 ### kstuff pipelines
 
 <br />
-All-In-One and Jailbreak-ONLY pipelines with kstyff being loaded instead of etaHEN
+All-In-One and Jailbreak-ONLY pipelines with kstuff being loaded instead of etaHEN
 <br />
 
-#### What it runs: Whatever All-In-One and Jailbreak-ONLY pipelines run, but with kstuff instead of etaHEN.
+#### What it runs: Whatever the All-In-One-etaHEN pipeline runs, but with kstuff instead of etaHEN.
 
 __________________________________________________________________________________________________________________________________________________________________________________
-### NOetaHEN pipelines
+
+### elf-arsenal pipelines
 
 <br />
-
-#### Notice! This is no longer needed since BenNox_XD fixed etahen issue with etahen crashing bdj, but the no etahen pipelines can be still used for other purposes, for example testing purpuses
+All-In-One and Jailbreak-ONLY pipelines with elf-arsenal being loaded instead of etaHEN
 <br />
 
-#### These pipelines are the same versions of the ones before, but without the etaHEN in the end, so theres no need for timing closing disk player so you wouldnt get kp.
-#### What it runs: Everything until etahen.
+#### What it runs: Whatever the All-In-One-etaHEN pipeline runs, but with elf arsenal instead of etaHEN.
+
+__________________________________________________________________________________________________________________________________________________________________________________
+
+### Linux pipeline
 <br />
+Loads the UMTX exploit, then exits the BDJ enviornment, and launches the Linux Loader
+<br />
+
+#### What it runs: UMTX - ELF LOADER - Linux-Loader
 
 __________________________________________________________________________________________________________________________________________________________________________________
 <br />
@@ -191,7 +198,10 @@ jailbreak.jar (required to load this payload to be able to load payloads from US
 elfloader.jar ([modified elf loader jar payload](https://github.com/Viktorious-x/bdjb-elfloader) by that has updated [elfloader.elf](https://github.com/ps5-payload-dev/elfldr))
 <br />
 
-etahen.jar - [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) that would fix [etaHEN](https://github.com/etaHEN/etaHEN) on bdj crashing) (requires Elf Loader running)
+etahen.jar - [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) (bundled with [etaHEN](https://github.com/etaHEN/etaHEN) by [LightningMods](https://github.com/lightningmods)) (requires Elf Loader running)
+<br />
+
+kstuff.jar - [BD-J Hen Loader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader) by [BenNox_XD](https://github.com/BenNoxXD) (bundled with [kstuff-lite](https://github.com/EchoStretch/kstuff-lite) by [LightningMods](https://github.com/EchoStretch)) (requires Elf Loader running)
 <br />
 
 websrv.jar - [websrv.elf](https://github.com/ps5-payload-dev/websrv/) by [John Törnblom aka SB](https://github.com/john-tornblom) (requires Elf Loader running)
@@ -200,13 +210,13 @@ websrv.jar - [websrv.elf](https://github.com/ps5-payload-dev/websrv/) by [John T
 ftpsrv.jar - ftp server, included in etahen, [ftpsrv.elf](https://github.com/ps5-payload-dev/ftpsrv/) (by [John Törnblom aka SB](https://github.com/john-tornblom)) (requires Elf Loader running)
 <br />
 
-airpsx.jar - Remote management software for Jailbroken PlayStation 5, [airpsx.elf](https://github.com/barisyild/airpsx) turned into a JAR (by [barisyild](https://github.com/barisyild)) (requires Elf Loader running)
+airpsx.jar - Remote management software for Jailbroken PlayStation 5, [airpsx.elf](https://github.com/barisyild/airpsx) (by [barisyild](https://github.com/barisyild)) (requires Elf Loader running)
 <br />
 
-ps5debug.jar - Debugger for the PlayStation 5, included in etahen, [ps5debug.elf](https://github.com/GoldHEN/ps5debug) turned into a JAR (by [ctn123](https://github.com/ctn123) and [SiSTRo](https://github.com/SiSTR0)) (requires Elf Loader running)
+ps5debug.jar - Debugger for the PlayStation 5, included in etahen, [ps5debug-NG](https://github.com/OpenSourcereR-dev/ps5debug-NG) (by github.com/OpenSourcereR-dev) (requires Elf Loader running)
 <br />
 
-kstuff.jar - autocloses Disc Player, then runs [kstuff](https://github.com/EchoStretch/kstuff) (requires Elf Loader running)
+linux-loader.jar - autocloses Disc Player, then runs [Linux-Loader](https://github.com/ps5-linux/ps5-linux-loader) by [TheFlow](https://github.com/TheOfficialFloW) (uses modified [BDJ Henloader](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader/tree/main) code (requires Elf Loader running)
 <br />
 
 shadowmount.jar - [ShadowMount](https://ko-fi.com/s/42233d1d5a) by [VoidWhisper](https://ko-fi.com/B0B11RW1NE/shop) (requires Elf Loader running)
@@ -218,16 +228,29 @@ backpork.jar - [BackPork](https://github.com/BestPig/BackPork) by [BestPig](http
 np-fake-signin.jar - [np-fake-signin](https://github.com/earthonion/np-fake-signin) by [earthonion](https://github.com/earthonion) (requires Elf Loader running)
 <br />
 
-klogsrv.jar - [klogsrv](https://github.com/ps5-payload-dev/klogsrv) by [John Törnblom aka SB](https://github.com/john-tornblom)
+klogsrv.jar - [klogsrv](https://github.com/ps5-payload-dev/klogsrv) by [John Törnblom aka SB](https://github.com/john-tornblom) (requires Elf Loader running)
 <br />
 
-gdbsrv.jar - [gdbsrv](https://github.com/ps5-payload-dev/gdbsrv) by [John Törnblom aka SB](https://github.com/john-tornblom)
+gdbsrv.jar - [gdbsrv](https://github.com/ps5-payload-dev/gdbsrv) by [John Törnblom aka SB](https://github.com/john-tornblom) (requires Elf Loader running)
 <br />
 
-shsrv.jar - [shsrv](https://github.com/ps5-payload-dev/shsrv) by [John Törnblom aka SB](https://github.com/john-tornblom)
+shsrv.jar - [shsrv](https://github.com/ps5-payload-dev/shsrv) by [John Törnblom aka SB](https://github.com/john-tornblom) (requires Elf Loader running)
 <br />
 
+ps5dpiv2.jar - [ps5-dpi-v2](https://git.etawen.dev/soniciso/ps5-dpi-v2) by [Sonic-Iso](https://git.etawen.dev/soniciso) (requires Elf Loader running)
+<br />
 
+fancontrol.jar - [fan-control](https://git.etawen.dev/soniciso/fan-control) by [Sonic-Iso](https://git.etawen.dev/soniciso) (requires Elf Loader running)
+<br />
+
+uds-trophy-unlocker.jar and uds-trophy-unlocker-probe.jar - [uds-trophy-unlocker](https://git.etawen.dev/soniciso/uds-trophy-unlocker) by [Sonic-Iso](https://git.etawen.dev/soniciso) (requires Elf Loader running)
+<br />
+
+ps5fwspoof.jar - ps5-fw-spoof by [Sonic-Iso](https://git.etawen.dev/soniciso) (requires Elf Loader running)
+<br />
+
+backuphelper(snapshot+restore).jar - [ps5-backup-helper](https://git.etawen.dev/soniciso/ps5-backup-helper) by [Sonic-Iso](https://git.etawen.dev/soniciso) (requires Elf Loader running)
+<br />
 
 
 [CloseDisk.jar](https://github.com/BenNoxXD/PS5-BDJ-HEN-loader/tree/main/ClosePlayer) (Closes Disk Player by [BenNox_XD](https://github.com/BenNoxXD)) (requires Elf Loader running)
