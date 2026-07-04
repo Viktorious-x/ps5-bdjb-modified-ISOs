@@ -281,7 +281,7 @@ Modded Warfare's tutorial about my iso is outdatded, but still useful!
 <br />
 <br />
 
-[Viktorious](https://www.youtube.com/@viktor7628) (oh wait that's me :) ): [Linux with Viktorious v26 overview video](https://www.youtube.com/watch?v=wecJHEraKaU (v26)
+[Viktorious](https://www.youtube.com/@viktor7628) (oh wait that's me :) ): [Linux with Viktorious v26 overview video](https://www.youtube.com/watch?v=wecJHEraKaU) (v26)
 <br />
 
 [Goldengames](https://www.youtube.com/@goldengames7890): [video](https://www.youtube.com/watch?v=UqUQXR0NEAQ) (v20)
