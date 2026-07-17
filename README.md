@@ -8,7 +8,7 @@
 <br />
 <br />
 <br />
-i am on 7.61, 10.00 and 11.40 so those are the firmware versions i test on
+i am on 7.61 and 10.00 so those are the firmware versions i test on
 <br />
 <br />
 Contact me on discord: Viktorious_x for feedback
@@ -17,15 +17,18 @@ Contact me on discord: Viktorious_x for feedback
 <br />
 
 ### If you would like to support what I do, here is my donation page:
-<br />
 
 [![ko-fi](https://github.com/CostasAK/react-kofi-button/blob/main/screenshots/default_preset.gif?raw=true)](https://ko-fi.com/viktorious)
 
+#### Notice! If you donate do not mention jailbreaking or hacking or anything associated with that!
+Thanks!
+<br />
+<br />
 <br />
 
-#### Notice! If you donate do not mention jailbreaking or hacking or anything associated with that!
-<br />
-Thanks!
+### Got any questions, issues, want to get notified about new releases or just want to talk?
+
+[![Discord Server](https://camo.githubusercontent.com/6ae5193bbc2239ba74d01105ecbbb34e286f613a437a72fbe63125cd65d73a48/68747470733a2f2f6769746875622e636f6d2f756e736c6f746861692f756e736c6f74682f7261772f6d61696e2f696d616765732f446973636f72642e706e67)](https://discord.gg/n2Tw79Rkze)
 <br />
 <br />
 <br /> 
@@ -83,8 +86,6 @@ Double click the disc in Explorer, select "like a USB flash drive", copy the fil
 
 [Tutorial Video](https://www.youtube.com/watch?v=skGlofv9uxg) 
 <br />
-download source code zip instead of iso if you wanna use this method!
-<br />
 <br />
 
 ## etaHEN configs & other stuff
@@ -127,7 +128,7 @@ It is also supported for etaHEN and kstuff to be in different locations. For exa
 <br />
 Pipelines are a sequence of payloads run so it will run the payloads all in one sequence so you dont have to do it yourself, its easier, faster and more automated that way.
 <br />
-there are 6 pipelines in total, I will divide it into 6 categories: ALL-IN-ONE, NormalJailbreak, etahen, kstuff, elf-arsenal and linux (poopsploit in the future)
+there are 6 pipelines in total, I will divide it into 6 categories: ALL-IN-ONE, NormalJailbreak, etaHEN, kstuff, elf-arsenal, Payload-Manager and linux-loader
 <br />
 <br />
 
@@ -138,7 +139,7 @@ ________________________________________________________________________________
 These pipelines have everything you would want
 <br />
 
-#### What it runs: UMTX - ELF LOADER- WEB SERVER - BACKPORK -  SHADOWMOUNT - ETAHEN (kstuff included) 
+#### What it runs: UMTX/POOPSPLOIT - ELF LOADER- WEB SERVER - SHADOWMOUNT - ETAHEN (kstuff included) 
 
 __________________________________________________________________________________________________________________________________________________________________________________
 ### Jailbreak-ONLY pipelines
@@ -147,7 +148,7 @@ ________________________________________________________________________________
 These pipelines are more simplified and has the minimal you need as fast as possible
 <br />
 
-#### What it runs: UMTX - ELF LOADER - ETAHEN (kstuff included) 
+#### What it runs: UMTX/POOPSPLOIT - ELF LOADER - ETAHEN (kstuff included) 
 
 __________________________________________________________________________________________________________________________________________________________________________________
 ### kstuff pipelines
@@ -167,7 +168,15 @@ All-In-One and Jailbreak-ONLY pipelines with elf-arsenal being loaded instead of
 <br />
 
 #### What it runs: Whatever the All-In-One-etaHEN pipeline runs, but with elf arsenal instead of etaHEN.
+__________________________________________________________________________________________________________________________________________________________________________________
 
+### Payload-Manager pipelines
+
+<br />
+All-In-One and Jailbreak-ONLY pipelines with Payload-Manager being loaded instead of etaHEN
+<br />
+
+#### What it runs: Whatever the All-In-One-etaHEN pipeline runs, but with Payload-Manager instead of etaHEN.
 __________________________________________________________________________________________________________________________________________________________________________________
 
 ### Linux pipeline
