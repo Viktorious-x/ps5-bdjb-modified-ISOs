@@ -2,8 +2,7 @@
 <br />
 <br />
 
-## Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.xx-7.xx (up to 12.00 with BDJ-UNPATCH)
-
+## Auto Jailbreak and HEN ALL-IN-ONE ISO for 3.00-12.00 (up to 13.42 with BDJB5, up to latest jailbreakable firmware with BDJB unpatch. No kernel exploit past 12.00 has been ported to BDJB though.)
 <br />
 <br />
 <br />
