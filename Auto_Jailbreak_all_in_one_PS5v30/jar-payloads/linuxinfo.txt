@@ -1,7 +1,15 @@
-3.00, 3.10, 3.20, 3.21 without M.2 support
-4.00, 4.02, 4.03, 4.50, 4.51 with M.2 support
-5.00, 5.02, 5.10, 5.50 with M.2 support
-6.00, 6.02, 6.50 with M.2 support
-7.20, 7.40, 7.61 with M.2 support
-11.00, 11.20, 11.40, 11.60 with M.2 support — PS5 Phat, Slim and Pro (sonic's fork)
-13.00, 13.20, 13.40, 13.42, 13.60 with M.2 support — PS5 Phat, Slim and Pro (sonic's fork)
+ps5-linux is supported on the following firmwares:
+
+PS5 Phat and Slim:
+
+    3.00, 3.10, 3.20, 3.21 without M.2 support
+    4.00, 4.02, 4.03, 4.50, 4.51 with M.2 support
+    5.00, 5.02, 5.10, 5.50 with M.2 support
+    6.00, 6.02, 6.50 with M.2 support
+    7.00, 7.01, 7.20, 7.40, 7.60, 7.61 with M.2 support
+    11.60 (regular PS5 only, M.2 not tested yet; the kernel needs KASLR, so do not pass nokaslr, mem= or memmap=)
+    13.00, 13.20, 13.60 with M.2 support
+
+PS5 Pro:
+
+    13.60 with M.2 support
